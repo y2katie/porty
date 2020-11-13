@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.jumbotron {
+  background-color: #F9EDED !important;
+}
+
+
+.imageCopy {
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0% 40%, #F6D6CF 40% 100%), radial-gradient(farthest-corner at -900px 250px, #F6D6CF 80%, #f9eded 80% 81%, #f9eded 81%);
+}
