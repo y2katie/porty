@@ -4,6 +4,8 @@ import Jumbotron from "./Jumbotron"
 import ImageCopy from "./ImageCopy"
 import Experience from "./Experience"
 import Port from "./Port";
+import Explainer from "./Explainer";
+
 
 class App extends React.Component {
   render() {
@@ -12,6 +14,7 @@ class App extends React.Component {
         <Header />
         <Jumbotron />
         <ImageCopy />
+        <Explainer />
         <Experience />
         <Port />
 

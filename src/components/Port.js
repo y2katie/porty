@@ -10,7 +10,7 @@ const Port = () => (
       </Grid.Column>
 
       <Grid.Column width={8}>
-        <Image src='https://i.pinimg.com/originals/bc/13/ae/bc13aeda287f8b812ee4b48c64209ae4.png' bordered />
+        <Image src='test.png' bordered />
       </Grid.Column>
 
       <Grid.Column width={8}>

@@ -5,7 +5,8 @@ import { Grid, Image, Button, Header } from 'semantic-ui-react'
 const Experience = () => (
 
   <Grid columns={3} stackable container className="experience" >
-    <Header as='h1' textAlign='center' className="heads"> Experience </Header>
+  
+
     <Grid.Row>
       <Grid.Column>
         <h3>  Nestio <br /> 2017-2020 </h3>

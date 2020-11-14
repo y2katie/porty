@@ -15,22 +15,49 @@ code {
     monospace;
 }
 
+.ui.button {
+  border-radius: 40px;
+}
+
 .heads {
   text-align: center !important;
 }
 
+.nice {
+  margin-top: 40px !important;
+  padding:30px !important;
+}
 
+.explainer {
+  margin-top:80px !important;
+}
+
+.explainerButton {
+  display:block !important;
+  margin:0 auto !important;
+}
+
+.type {
+  padding: 40px !important;
+
+  }
 .imageCopy {
   content:"";
   background-color: #F6D6CF;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   border-top-left-radius: 25%;
+  border-top-right-radius: -15%;
+  padding:30px;
+  height:600px;
+}
+
+.opening {
+  margin-bottom:30px !important;
 }
 
 .four {
   margin-top:-80px;
-
 }
 
  .five {

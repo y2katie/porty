@@ -6,12 +6,12 @@ const ImageCopy = () => (
   <Grid.Column width={1}>
   </Grid.Column>
 
-      <Grid.Column width={4}>
+      <Grid.Column width={4} className="nice">
         <Image src='nice.png' />
       </Grid.Column>
 
-      <Grid.Column width={10}>
-      <Header size='large'>A paragraph is a self-contained unit of discourse in writing dealing with a particular point</Header>
+      <Grid.Column width={10} className="type">
+      <h1 className="opening">A paragraph is a self-contained unit of discourse in writing dealing with a particular point</h1>
 
 
         <Grid divided='vertically'>

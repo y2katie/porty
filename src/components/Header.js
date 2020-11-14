@@ -10,7 +10,8 @@ export default class Header extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu stackable>
+      <Container>
+      <Menu text stackable>
         <Menu.Item
           className ="logo"
           name='Katie Jordan'
@@ -20,22 +21,8 @@ export default class Header extends Component {
         />
 
 
-        <Menu.Item
-        position="right"
-          name='reviews'
-          active={activeItem === 'reviews'}
-          content='Reviews'
-          onClick={this.handleItemClick}
-        />
-
-        <Menu.Item
-
-          name='upcomingEvents'
-          active={activeItem === 'upcomingEvents'}
-          content='Upcoming Events'
-          onClick={this.handleItemClick}
-        />
       </Menu>
+      </Container>
     )
   }
 }
