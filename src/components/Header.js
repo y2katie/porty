@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Menu } from 'semantic-ui-react'
+import { Menu, Container } from 'semantic-ui-react'
 
 export default class Header extends Component {
   state = {}
@@ -10,15 +10,18 @@ export default class Header extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu>
+      <Menu stackable>
         <Menu.Item
-          name='editorials'
+          className ="logo"
+          name='Katie Jordan'
           active={activeItem === 'editorials'}
-          content='Editorials'
+          content='Katie Jordan'
           onClick={this.handleItemClick}
         />
 
+
         <Menu.Item
+        position="right"
           name='reviews'
           active={activeItem === 'reviews'}
           content='Reviews'
@@ -26,6 +29,7 @@ export default class Header extends Component {
         />
 
         <Menu.Item
+
           name='upcomingEvents'
           active={activeItem === 'upcomingEvents'}
           content='Upcoming Events'

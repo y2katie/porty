@@ -3,6 +3,7 @@ import Header from "./Header"
 import Jumbotron from "./Jumbotron"
 import ImageCopy from "./ImageCopy"
 import Experience from "./Experience"
+import Port from "./Port";
 
 class App extends React.Component {
   render() {
@@ -12,6 +13,7 @@ class App extends React.Component {
         <Jumbotron />
         <ImageCopy />
         <Experience />
+        <Port />
 
       </div>
     );
