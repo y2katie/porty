@@ -8,7 +8,7 @@ const Explainer = () => {
     <Grid.Column width={16}>
 
     <h1 className="heads"> Experience </ h1>
-    <Button size='massive' className="explainerButton"> Click Me </ Button>
+    <Button size='massive' className="explainerButton" > <a href="KJ_2020.pdf" download>Click Me </a> </ Button>
     </Grid.Column>
   </Grid>
   )

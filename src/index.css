@@ -19,6 +19,15 @@ code {
   border-radius: 40px;
 }
 
+.ui.button:hover{
+  background-color:#f6d6cf;
+}
+
+a {
+  color:#black !important;
+}
+
+
 .heads {
   text-align: center !important;
 }
@@ -28,8 +37,13 @@ code {
   padding:30px !important;
 }
 
+.niceImg {
+  width:70%;
+}
+
 .explainer {
   margin-top:80px !important;
+  background-color:white;
 }
 
 .explainerButton {
@@ -40,37 +54,36 @@ code {
 
 .type {
   padding: 40px !important;
+}
 
-  }
 .imageCopy {
-  content:"";
   background-color: #F6D6CF;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 50%;
-  border-top-left-radius: 25%;
-  border-top-right-radius: -15%;
-  padding:30px;
-  height:600px;
+
 }
 
 .opening {
   margin-bottom:30px !important;
 }
 
+
 .four {
-  margin-top:-80px;
+  margin-top: -100px;
 }
 
  .five {
-  margin-top:-50px;
+  margin-top:-100px;
 }
 
 .port {
   padding:40px !important;
+  background-color:#FFF5EC;
+
 }
+
 
 .experience {
   padding:40px !important;
+  background-color:white;
 }
 
 .ui.menu {
@@ -78,21 +91,16 @@ code {
   border: none !important;
 }
 
-.ui.menu>.item:first-child {
-  font-family: 'Playfair Display', serif;
-  font-size:30px;
-}
 
 .faces {
-  margin-top:-30px;
-  transform:scale(1, 1);
-   transition: .5s;
+  margin-top:-90px;
+margin-bottom:30px;
 }
 
-.faces:hover {
-      transform:scale(1.5, 1.5);
-
+a {
+  color: rgba(0,0,0,.87)
 }
+
 
 .ui.button {
   background-color:#F6C9A0
@@ -104,6 +112,31 @@ code {
 
 
 .ui.huge.header {
-  font-size: 50px;
+  font-size: 75px;
+  font-size:300 !important;
   margin-top: 120px;
+}
+
+
+
+@media(max-width:992px) {
+  .faces{
+    margin-top:0px;
+    margin:0 auto;
+    display: none;
+  }
+  .ui.huge.header {
+    font-size: 55px;
+    font-size:300 !important;
+    margin-top: 0px;
+  }
+
+  .niceImg, .imgNice2 {
+    display: none !important;
+  }
+
+  .experience {
+    margin-top:250px !important;
+  }
+
 }

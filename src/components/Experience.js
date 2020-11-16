@@ -5,7 +5,7 @@ import { Grid, Image, Button, Header } from 'semantic-ui-react'
 const Experience = () => (
 
   <Grid columns={3} stackable container className="experience" >
-  
+
 
     <Grid.Row>
       <Grid.Column>
