@@ -1,6 +1,7 @@
 import React from "react";
-import { Header, Grid, Image, Button,Reveal, Transition, Visibility } from "semantic-ui-react"
+import { Header, Grid, Image, Button } from 'semantic-ui-react'
 
+import { CSSTransitionGroup } from 'react-transition-group'
 
 const Jumbotron = () => (
   <Grid className="jumbotron" stackable>
@@ -13,7 +14,13 @@ const Jumbotron = () => (
 
       </Grid.Column>
       <Grid.Column width={9}>
-        <Image className="faces" src='faces.png' size="massive" />
+        <CSSTransitionGroup
+        transitionName="example"
+        transitionAppear={true}
+        transitionEnterTimeout={5500}
+        transitionLeaveTimeout={4400}>
+            <Image key={"one"} className="faces" src='faces.png' size="massive" />
+        </CSSTransitionGroup>
       </Grid.Column>
 
     </Grid>
