@@ -1,7 +1,40 @@
-import React from "react";
+import React, {useState} from "react";
+import { render } from 'react-dom'
+import { useTrail, a } from 'react-spring'
 import { Header, Grid, Image, Button } from 'semantic-ui-react'
 
-const ImageCopy = () => (
+
+function Trail({ open, children, ...props }) {
+  const items = React.Children.toArray(children)
+  const trail = useTrail(items.length, {
+    config: { mass: 5, tension: 200, friction: 200 },
+    opacity: open ? 1 : 0,
+    x: open ? 0 : 20,
+    height: open ? 110 : 0,
+    from: { opacity: 0, x: 20, height: 0 },
+  })
+  return (
+    <div className="trails-main" {...props}>
+      <div>
+        {trail.map(({ x, height, ...rest }, index) => (
+          <a.div
+            key={items[index]}
+            className="trails-text"
+            style={{ ...rest, transform: x.interpolate((x) => `translate3d(0,${x}px,0)`) }}>
+            <a.div style={{ height }}>{items[index]}</a.div>
+          </a.div>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+export default function ImageCopy() {
+  const [open, set] = useState(true)
+
+  return(
+    <Trail open={open} onClick={() => set((state) => !state)}>
+
   <Grid className="imageCopy" stackable>
   <Grid.Column width={1}>
   </Grid.Column>
@@ -11,7 +44,9 @@ const ImageCopy = () => (
       </Grid.Column>
 
       <Grid.Column width={9} className="type">
-      <h1 className="opening">A paragraph is a self-contained unit of discourse in writing dealing with a particular point</h1>
+       <span><h1>A paragraph is a self-contained unit of discourse in writing dealing with a particular point </h1></span>
+
+
 
 
         <Grid divided='vertically'>
@@ -42,7 +77,7 @@ const ImageCopy = () => (
             <Image className="imgNice2" src='nice.png' />
         </Grid.Column>
   </Grid>
+     </Trail>
 
-)
-
-export default ImageCopy
+  )
+}

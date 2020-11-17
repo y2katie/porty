@@ -1,10 +1,10 @@
 import React from "react";
 import Header from "./Header"
-import Jumbotron from "./Jumbotron"
 import ImageCopy from "./ImageCopy"
 import Experience from "./Experience"
 import Port from "./Port";
 import Explainer from "./Explainer";
+import Spring from "./Spring";
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 
@@ -15,11 +15,12 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
-        <Jumbotron />
+        <Spring />
         <ImageCopy />
         <Explainer />
         <Experience />
         <Port />
+
 
       </div>
     );

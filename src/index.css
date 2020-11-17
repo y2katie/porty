@@ -23,6 +23,18 @@ code {
   background-color:#f6d6cf;
 }
 
+.card {
+  width: 85ch;
+  height: 85ch;
+  border-radius: 5px;
+  background-size: cover;
+  background-image:url("faces.png");
+  background-position: center center;
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  margin-top:-50px;
+}
+
 a {
   color:#black !important;
 }

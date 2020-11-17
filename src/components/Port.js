@@ -10,11 +10,11 @@ const Port = () => (
       </Grid.Column>
 
       <Grid.Column width={8}>
-        <Image src='2.jpg' bordered />
+        <Image src='test.png' bordered />
       </Grid.Column>
 
       <Grid.Column width={8}>
-        <Image src='3.jpg' bordered />
+        <Image src='2.jpg' bordered />
       </Grid.Column>
 
       <Grid.Column width={8} className="four">
@@ -22,11 +22,11 @@ const Port = () => (
       </Grid.Column>
 
       <Grid.Column width={8}>
-        <Image src='2.jpg' bordered />
+        <Image src='2' bordered />
       </Grid.Column>
 
       <Grid.Column width={8} className="five">
-        <Image src='image.jpg' bordered />
+        <Image src='test.png' bordered />
       </Grid.Column>
 
 
