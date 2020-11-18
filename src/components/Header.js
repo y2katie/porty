@@ -12,27 +12,27 @@ export default class Header extends Component {
     return (
       <Menu>
         <Menu.Item
-          name='editorials'
-          active={activeItem === 'editorials'}
+          name='Experience'
+          active={activeItem === 'Experience'}
           onClick={this.handleItemClick}
         >
-          Editorials
+          Experience
         </Menu.Item>
 
         <Menu.Item
-          name='reviews'
-          active={activeItem === 'reviews'}
+          name='Portfolio'
+          active={activeItem === 'Portfolio'}
           onClick={this.handleItemClick}
         >
-          Reviews
+          Portfolio
         </Menu.Item>
 
         <Menu.Item
-          name='upcomingEvents'
-          active={activeItem === 'upcomingEvents'}
+          name='Contact'
+          active={activeItem === 'Contact'}
           onClick={this.handleItemClick}
         >
-          Upcoming Events
+          Contact
         </Menu.Item>
       </Menu>
     )
