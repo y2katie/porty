@@ -38,7 +38,10 @@ code {
   background-color:white;
   margin-top:-60px;
 }
-
+.ui.grid>.row {
+  padding:30px;
+  border-top: 1px solid #eee;
+}
 .test {
   margin-top:-90px;
 }
@@ -51,7 +54,7 @@ code {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-size: 5em;
+  font-size: 4em;
   font-weight: 500;
   text-transform: uppercase;
   will-change: transform, opacity, height;
@@ -224,8 +227,15 @@ a {
     display: none !important;
   }
 
-  .experience {
-    margin-top:250px !important;
+  .transitions-item {
+  font-size: 40px !important;
+  font-weight: 500;
+  line-height:30px;
   }
+
+  .icCopy {
+    margin-top:-90px !important;
+  }
+
 
 }

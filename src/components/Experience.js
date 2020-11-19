@@ -9,7 +9,7 @@ const Experience = () => {
 <Grid columns={3} stackable className="experience" >
 <Grid.Row>
   <Grid.Column>
-    <h3>  <b> Intelligent Communications </b><br /> 2020 - Present </h3>
+    <h3> Intelligent Communications </h3> <p> 2020 - Present </p>
   </Grid.Column>
   <Grid.Column>
     <h3> Frontend Developer | Product Design </h3>
@@ -24,7 +24,7 @@ research insights into workable user interfaces. </p>
 
 <Grid.Row>
   <Grid.Column>
-    <h3>  Fashion Insititute Technology <br /> 2019-Present </h3>
+    <h3>  Fashion Insititute Technology</h3>  <p>2019-Present </p>
   </Grid.Column>
   <Grid.Column>
     <h3> Adjunct UX Professor </h3>
@@ -39,7 +39,7 @@ performance. </p>
 
   <Grid.Row>
     <Grid.Column>
-      <h3>  Nestio <br /> 2017-2020 </h3>
+      <h3>  Nestio </h3> <p> 2017-2020 </p>
     </Grid.Column>
     <Grid.Column>
       <h3> Web Development | Product Design </h3>
@@ -55,7 +55,7 @@ research insights into workable user interfaces. </p>
 
   <Grid.Row>
     <Grid.Column>
-      <h3>  Townsquare Media <br /> 2016-2017 </h3>
+      <h3>  Townsquare Media </h3> <p> 2016-2017 </p>
     </Grid.Column>
     <Grid.Column>
       <h3> Visual Designer </h3>

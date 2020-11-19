@@ -57,21 +57,21 @@ export default function ImageCopy() {
         <Grid divided='vertically'>
         <Grid.Row columns={2}>
                 <Grid.Column>
-                  <h3> Web Design </h3>
+                  <h3> <i class="images icon"></i> Web Design </h3>
                   <p> I work with up to date software including sketch and figma to create attractive and functional prototypes. I use a robust iteration and collaborative process to arrive at a final product. </p>
                 </Grid.Column>
                 <Grid.Column>
-                <h3> Prodcut Design</h3>
+                <h3> <i class="pencil alternate icon"></i> Prodcut Design</h3>
                   <p> I combine a strong research process including competitor analysis, user journeys and flows as well as pen and paper sketching to help refine ideas and concepts. I primarily use figma but have experince with sketch and XD. </p>
                 </Grid.Column>
             </Grid.Row>
             <Grid.Row columns={2}>
                 <Grid.Column>
-                <h3> Illustration </h3>
+                <h3> <i class="meh icon"> </i>Illustration </h3>
                   <p> I enjoy creating patterns and yoga sequences with vibrant color palettes using figma. Yes, figma. Most recently, my illustrations have been featured in the BuzzBell App. </p>
                 </Grid.Column>
                 <Grid.Column>
-                <h3> Web Development</h3>
+                <h3> <i class="save icon"> </i>Web Development</h3>
                   <p> I'm well versed in the basic front end languages and have fantastic google skills, shout out to stack overflow. Most recently I've added building applications with react to my skillset. </p>
                 </Grid.Column>
             </Grid.Row>
