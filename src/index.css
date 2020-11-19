@@ -37,9 +37,7 @@ code {
 .explainer {
   background-color:white;
   margin-top:-60px;
-
 }
-
 
 .test {
   margin-top:-90px;
@@ -48,7 +46,7 @@ code {
 .transitions-item {
   overflow: hidden;
   width: 100vw;
-  font-family:"Roboto";
+  font-family:"Playfair Display";
   color: white;
   display: flex;
   justify-content: flex-start;

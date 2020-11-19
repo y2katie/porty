@@ -51,28 +51,28 @@ export default function ImageCopy() {
       </Grid.Column>
 
       <Grid.Column width={9} className="type">
-       <span><h2 className="icCopy">A paragraph is a self-contained unit of discourse in writing dealing with a particular point </h2></span>
+       <span><h2 className="icCopy">I'm a a full-stack designer with a wide range of skills ranging from graphic design, illustration, UX design, UI design, and front-end development. </h2></span>
 
 
         <Grid divided='vertically'>
         <Grid.Row columns={2}>
                 <Grid.Column>
                   <h3> Web Design </h3>
-                  <p> A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose. </p>
+                  <p> I work with up to date software including sketch and figma to create attractive and functional prototypes. I use a robust iteration and collaborative process to arrive at a final product. </p>
                 </Grid.Column>
                 <Grid.Column>
                 <h3> Prodcut Design</h3>
-                  <p> A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose. </p>
+                  <p> I combine a strong research process including competitor analysis, user journeys and flows as well as pen and paper sketching to help refine ideas and concepts. I primarily use figma but have experince with sketch and XD. </p>
                 </Grid.Column>
             </Grid.Row>
             <Grid.Row columns={2}>
                 <Grid.Column>
                 <h3> Illustration </h3>
-                  <p> A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose. </p>
+                  <p> I enjoy creating patterns and yoga sequences with vibrant color palettes using figma. Yes, figma. Most recently, my illustrations have been featured in the BuzzBell App. </p>
                 </Grid.Column>
                 <Grid.Column>
-                <h3> Web Development + UX Research</h3>
-                  <p> A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose. </p>
+                <h3> Web Development</h3>
+                  <p> I'm well versed in the basic front end languages and have fantastic google skills, shout out to stack overflow. Most recently I've added building applications with react to my skillset. </p>
                 </Grid.Column>
             </Grid.Row>
           </Grid>
@@ -90,7 +90,7 @@ export default function ImageCopy() {
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
   <path fill="#f6d6ce" fill-opacity="1" d="M0,96L48,96C96,96,192,96,288,112C384,128,480,160,576,149.3C672,139,768,85,864,58.7C960,32,1056,32,1152,42.7C1248,53,1344,75,1392,85.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
 </svg>
-      
+
 
         </div>
 

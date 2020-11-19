@@ -7,39 +7,65 @@ const Experience = () => {
   return (
     <>
 <Grid columns={3} stackable className="experience" >
-  <Grid.Row>
-    <Grid.Column>
-      <h3>  Nestio <br /> 2017-2020 </h3>
-    </Grid.Column>
-    <Grid.Column>
-      <h3> Web & Product Design </h3>
-    </Grid.Column>
-    <Grid.Column>
-      <p> Product designer and digital creative, specializing in ui/us brigital creative, specializing in ui/uanding and digital designs </p>
-    </Grid.Column>
-  </Grid.Row>
+<Grid.Row>
+  <Grid.Column>
+    <h3>  <b> Intelligent Communications </b><br /> 2020 - Present </h3>
+  </Grid.Column>
+  <Grid.Column>
+    <h3> Frontend Developer | Product Design </h3>
+  </Grid.Column>
+  <Grid.Column>
+  <b> Responsiblities Include: </b>
+    <p> Designed & developed web applications. Delivered high fidelity designs, prototypes for mainly focusing on
+dashboard for a food delivery service. Conduct usability testing, contextual inquiry and translate
+research insights into workable user interfaces. </p>
+  </Grid.Column>
+</Grid.Row>
+
+<Grid.Row>
+  <Grid.Column>
+    <h3>  Fashion Insititute Technology <br /> 2019-Present </h3>
+  </Grid.Column>
+  <Grid.Column>
+    <h3> Adjunct UX Professor </h3>
+  </Grid.Column>
+  <Grid.Column>
+    <b> Responsiblities Include: </b>
+    <p> Created engaging lesson plans with a focus on user testing
+and market research.Facilitated class instruction & evaluated student
+performance. </p>
+  </Grid.Column>
+</Grid.Row>
 
   <Grid.Row>
     <Grid.Column>
       <h3>  Nestio <br /> 2017-2020 </h3>
     </Grid.Column>
     <Grid.Column>
-      <h3> Web & Product Design </h3>
+      <h3> Web Development | Product Design </h3>
     </Grid.Column>
     <Grid.Column>
-      <p> Product designer and digital creative, specializing in ui/us brigital creative, specializing in ui/uanding and digital designs </p>
+    <b> Responsiblities Include: </b>
+      <p> Designed & developed web applications. Delivered high fidelity designs, prototypes for mainly focusing on
+dashboard for a food delivery service. Conduct usability testing, contextual inquiry and translate
+research insights into workable user interfaces. </p>
     </Grid.Column>
   </Grid.Row>
 
+
   <Grid.Row>
     <Grid.Column>
-      <h3>  Nestio <br /> 2017-2020 </h3>
+      <h3>  Townsquare Media <br /> 2016-2017 </h3>
     </Grid.Column>
     <Grid.Column>
-      <h3> Web & Product Design </h3>
+      <h3> Visual Designer </h3>
     </Grid.Column>
     <Grid.Column>
-      <p> Product designer and digital creative, specializing in ui/us brigital creative, specializing in ui/uanding and digital designs </p>
+    <b> Responsiblities Include </b>
+      <p>   Lead art direction of the company and worked closely with
+stakeholders to translate business requirements into actual
+design. Create assets for social media marketing, EDMs and pitch deck. Collaboraed with internal teams to define user interface
+requirements </p>
     </Grid.Column>
   </Grid.Row>
 </Grid>
