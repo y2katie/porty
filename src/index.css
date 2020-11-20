@@ -13,9 +13,9 @@ body {
 
 
 h1 {
-  font-size:60px;
-  font-family: "Playfair Display", serif;
-  font-weight:400;
+  font-size:60px !important;
+  font-family: "Playfair Display", serif !important;
+  font-weight:400 !important;
   color:#3A3A3A !important;
   margin-top:40px !important;
 }
@@ -44,7 +44,7 @@ code {
   background-color:white;
   margin-top:-60px;
 }
-.ui.grid>.row {
+.explainer .ui.grid>.row {
   padding:30px;
   border-top: 1px solid #eee;
 }
@@ -107,16 +107,41 @@ code {
 }
 
 .card {
-  width: 85ch;
-  height: 85ch;
+  width: 400px;
+  height: 400px;
   border-radius: 5px;
   background-size: cover;
-  background-image:url("faces.png");
+  background-image:url("./images/faces.png");
   background-position: center center;
   transition: box-shadow 0.5s;
   will-change: transform;
   margin-top:-50px;
 }
+
+.card1 {
+  width: 400px;
+  height: 400px;
+  border-radius: 5px;
+  background-size: cover;
+  background-image:url("./images/jeff.jpg");
+  background-position: center center;
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  margin-top:-50px;
+}
+
+.card2 {
+  width: 400px;
+  height: 400px;
+  border-radius: 5px;
+  background-size: cover;
+  background-image:url("./images/kanye.jpg");
+  background-position: top center;
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  margin-top:-50px;
+}
+
 
 a {
   color:#black !important;

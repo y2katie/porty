@@ -1,30 +1,26 @@
-import React from "react";
+import React, { Component } from 'react';
+import { HashRouter, Route, Link } from "react-router-dom";
 import Header from "./Header"
-import ImageCopy from "./ImageCopy"
-import Experience from "./Experience"
-import Port from "./Port";
-import Explainer from "./Explainer";
-import Starter from "./Starter";
-
-import Spring from "./Spring";
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import Home from './Home'
+import Contact from './Contact'
+import Portfolio from './Portfolio'
+import OnlineLeasing from './OnlineLeasing'
 
 
+class App extends Component {
 
-
-class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <Header />
-        <Starter />
-        <ImageCopy />
-        <Explainer />
-        <Experience />
-        <Port />
+      <HashRouter>
+            <div className="App">
+            <Header />
+              <Route exact path="/" component={Home} />
+              <Route path="/portfolio" component={Portfolio} />
+              <Route path="/contact" component={Contact} />
+              <Route path="/onlineleasing" component={OnlineLeasing} />
+             </div>
+       </HashRouter>
 
-
-      </div>
     );
   }
 }

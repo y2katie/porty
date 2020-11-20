@@ -67,7 +67,7 @@ export default function ImageCopy() {
             </Grid.Row>
             <Grid.Row columns={2}>
                 <Grid.Column>
-                <h3> <i class="meh icon"> </i>Illustration </h3>
+                <h3> <i class="meh icon"> </i> Illustration </h3>
                   <p> I enjoy creating patterns and yoga sequences with vibrant color palettes using figma. Yes, figma. Most recently, my illustrations have been featured in the BuzzBell App. </p>
                 </Grid.Column>
                 <Grid.Column>
