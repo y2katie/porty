@@ -5,6 +5,8 @@ import Home from './Home'
 import Contact from './Contact'
 import Portfolio from './Portfolio'
 import OnlineLeasing from './OnlineLeasing'
+import OnePercent from './OnePercent'
+
 
 
 class App extends Component {
@@ -18,6 +20,8 @@ class App extends Component {
               <Route path="/portfolio" component={Portfolio} />
               <Route path="/contact" component={Contact} />
               <Route path="/onlineleasing" component={OnlineLeasing} />
+              <Route path="/onepercent" component={OnePercent} />
+
              </div>
        </HashRouter>
 

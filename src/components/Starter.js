@@ -22,8 +22,7 @@ export default function Starter() {
     ref.current.map(clearTimeout)
     ref.current = []
     set([])
-    ref.current.push(setTimeout(() => set(['Welcome', 'To my Site']), 1000))
-    ref.current.push(setTimeout(() => set(['Im a multifacted', 'digital designer', 'with lots of', 'hobbies']), 4000))
+    ref.current.push(setTimeout(() => set(['Welcome', 'To My Site']), 1000))
     ref.current.push(setTimeout(() => set(['Cross Stitcher', 'Dog Lover', 'Baker']), 5000))
     ref.current.push(setTimeout(() => set(['Developer', 'Designer','Yoga Instructor', 'Illustrator', "Adjunct Prof", "UI Designer"]), 8000))
   }, [])

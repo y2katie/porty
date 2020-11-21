@@ -27,6 +27,11 @@ const ProjectDescription = (props) => {
             <p> {props.solutionContent} </p>
             </Grid.Column>
         </Grid.Row>
+        <Grid.Row centered>
+          <Grid.Column width={16}>
+            <Image centered src={props.img2} />
+          </Grid.Column>
+        </Grid.Row>
           </Grid>
       </Container>
     </>

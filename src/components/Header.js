@@ -13,21 +13,33 @@ class Header extends Component {
         <Menu>
           <Menu.Item>
             <Link name='Experience' to="/">
-                Experience
+              <b>  Katie Jordan </b>
             </Link>
             </Menu.Item>
 
               <Menu.Item>
             <Link to="/Portfolio">
-               Portfolio
+               Linkedin
             </Link>
               </Menu.Item>
 
             <Menu.Item>
               <Link to="/Contact">
-                 Test
+                 Dribbble
               </Link>
           </Menu.Item>
+
+          <Menu.Item>
+            <Link to="/Contact">
+               Github
+            </Link>
+            </Menu.Item>
+
+            <Menu.Item>
+              <Link to="/Contact">
+                 Venmo (jk but maybe?)
+              </Link>
+              </Menu.Item>
         </Menu>
     );
   }

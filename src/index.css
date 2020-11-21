@@ -66,11 +66,10 @@ code {
   align-items: center;
   font-size: 4em;
   font-weight: 500;
-  text-transform: uppercase;
   will-change: transform, opacity, height;
   white-space: nowrap;
   cursor: pointer;
-  line-height: 80px;
+  line-height: 40px;
 }
 
 .list {
