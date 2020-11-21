@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from 'react-dom'
 import { useSpring, animated } from 'react-spring'
-import { Grid, Container, Image } from 'semantic-ui-react'
+import { Grid, Button,Container, Image } from 'semantic-ui-react'
 
 
 const ProjectDescription = (props) => {
@@ -10,23 +10,21 @@ const ProjectDescription = (props) => {
 <>
 
 <Container centered>
-    <Grid>
+    <Grid centered>
         <h1> {props.projectHeader} </h1>
-        <Grid.Row>
-          <Grid.Column width={5}>
-            <Image src={props.img} />
-          </Grid.Column>
-          <Grid.Column width={5}>
-            <Image src={props.img1} />
-          </Grid.Column>
-          <Grid.Column width={5}>
-            <Image src={props.img2} />
+        <p> {props.projectExplainer} </p>
+        <button class="ui button"> <a href={props.link}> View Project </a> </button>
+        <Grid.Row centered>
+          <Grid.Column width={16}>
+            <Image centered src={props.img} />
           </Grid.Column>
         </Grid.Row>
-        <Grid.Row width={12}>
+        <Grid.Row centered width={12}>
             <Grid.Column>
-            <h3> {props.title} </h3>
-            <p> {props.content} </p>
+            <h3> {props.problem} </h3>
+            <p> {props.problemContent} </p>
+            <h3> {props.solution} </h3>
+            <p> {props.solutionContent} </p>
             </Grid.Column>
         </Grid.Row>
           </Grid>

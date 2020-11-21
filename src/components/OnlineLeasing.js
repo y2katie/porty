@@ -8,12 +8,14 @@ import { Header, Grid, Image, Button } from 'semantic-ui-react'
 export default function OnlineLeasing() {
   return(
     <ProjectDescription
-      projectHeader = "hello"
-      img = "./baked2.jpg"
-      img1 = "./rosey.jpg"
-      img2 = "./baked2.jpg"
-      title="This Article"
-      content="Events in JavaScript provide a dynamic interface to the webpage. There are wide variety of events such as user clicking, moving the mouse over an element, etc. Events that occur when the mouse interacts with the HTML document falls under the category of MouseEvent property."
+      projectHeader = "Online Leasing"
+      projectExplainer="A simplied solution to rent properties. Agents can send a link to potential renters and renters can complete the standard rental process from the comfort of their home."
+      link="https://apply.funnelleasing.com/2/login"
+      img = "23.png"
+      problem="Problem"
+      problemContent="Events in JavaScript provide a dynamic interface to the webpage. There are wide variety of events such as user clicking, moving the mouse over an element, etc. Events that occur when the mouse interacts with the HTML document falls under the category of MouseEvent property."
+      solution="Solution"
+      solutionContent="Events in JavaScript provide a dynamic interface to the webpage. There are wide variety of events such as user clicking, moving the mouse over an element, etc. Events that occur when the mouse interacts with the HTML document falls under the category of MouseEvent property."
     />
   )
 }

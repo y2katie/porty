@@ -4,11 +4,14 @@ import { Link } from "react-router-dom";
 import { Grid, Image, Container } from 'semantic-ui-react'
 
 const Testing = () => (
-  <Container>
+  <Container stackable>
+    <h1 center> Portfolio </ h1>
   <Grid>
     <Grid.Row columns={2}>
       <Grid.Column>
-        <Image src='test.png' />
+        <Link to="/onlineleasing">
+          <Image src='waverly.png' />
+        </Link>
       </Grid.Column>
       <Grid.Column>
         <Image src='baked.jpg' />
@@ -24,10 +27,8 @@ const Testing = () => (
     </Grid.Row>
     <Grid.Row columns={2}>
       <Grid.Column>
-      <Link to="/onlineleasing">
 
         <Image src='test.png' />
-        </Link>
       </Grid.Column>
       <Grid.Column>
         <Image src='baked.jpg' />
