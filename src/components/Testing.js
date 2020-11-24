@@ -25,39 +25,40 @@ const Testing = () => (
     </Grid.Row>
     <Grid.Row columns={2}>
     <Grid.Column>
-    <h3> One Percent </h3>
-    <Link to="/onepercent">
-      <Image src='25.png' />
+    <h3> Cortland Live Chat</h3>
+    <Link to="/cortland">
+      <Image src='69.png' />
     </Link>
     </Grid.Column>
 
       <Grid.Column>
         <h3> Herald Towers </h3>
-          <Link to="/nice">
+          <Link to="/heraldtowers">
         <Image src='29.png' />
         </Link>
       </Grid.Column>
     </Grid.Row>
     <Grid.Row columns={2}>
       <Grid.Column>
-      <Link to="/nice">
+      <Link to="/nicejewlery">
         <h3> Nice Jewlery </h3>
         <Image src='27.png' />
       </Link>
       </Grid.Column>
       <Grid.Column>
       <h3> Baked</h3>
-
-        <Image src='51.png' />
+        <Image src='59.png' />
       </Grid.Column>
     </Grid.Row>
     <Grid.Row columns={2}>
-      <Grid.Column>
-      <Link to="/nice">
-        <h3> Delivered</h3>
-        <Image src='52.png' />
-      </Link>
-      </Grid.Column>
+    <Grid.Column>
+    <h3> One Percent </h3>
+    <Link to="/onepercent">
+      <Image src='62.png' />
+    </Link>
+    </Grid.Column>
+
+
       <Grid.Column>
       <h3> Kanye</h3>
 
