@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import { Grid, Image, Container } from 'semantic-ui-react'
 
 const Testing = () => (
-  <Container  stackable>
-  <Grid>
+  <Container>
+  <Grid stackable>
   <h1 center> Portfolio </ h1>
 
     <Grid.Row columns={2}>

@@ -18,28 +18,24 @@ class Header extends Component {
             </Menu.Item>
 
               <Menu.Item>
-            <Link to="/Portfolio">
+            <a href="https://www.linkedin.com/in/katie-jordan-designer/">
                Linkedin
-            </Link>
+            </a>
               </Menu.Item>
 
             <Menu.Item>
-              <Link to="/Contact">
-                 Dribbble
-              </Link>
+              <a href="https://dribbble.com/kj0203">
+                 Illustrations
+              </a>
           </Menu.Item>
 
           <Menu.Item>
-            <Link to="/Contact">
+            <a href="https://github.com/katyvonkaty">
                Github
-            </Link>
+            </a>
             </Menu.Item>
 
-            <Menu.Item>
-              <Link to="/Contact">
-                 Venmo (jk but maybe?)
-              </Link>
-              </Menu.Item>
+
         </Menu>
     );
   }
