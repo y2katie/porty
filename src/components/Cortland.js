@@ -9,13 +9,13 @@ export default function Cortland() {
   return(
     <ProjectDescription
       projectHeader = "Cortland Live Chat"
-      projectExplainer= "The one percent just dont have enough. I wanted to craft an experience solely for those in that marginal category. Some non essentials were yacht and helipad access as well as the ability to make people disappear on a whim."
+      projectExplainer= "A feature that was been gaining popularity across industries is live chat. Live chat provides the ability to constantly be in touch with prospect renters regarding answering apartment questions or scheduling tours."
       link="https://cortland.com/apartments/cortland-north-druid-hills/"
       img = "75.png"
       problem="Problem"
-      problemContent="Winston and Harper IV were having trouble figuring out how to throw their annual hamptons soiree during the pandemic. The pandemic was such a burden on them and their friends, so they wanted an app to help make their lives easier."
+      problemContent="How can a company remain available to potential renters 24/7?"
       solution="Solution"
-      solutionContent="Let them eat cake! This app provides in demand functionality of buying elections, people, islands, countries you name it. You need a net worth of 5.5 mil to buy in, but can you really put a price on exclusivity?"
+      solutionContent="Companies are moving into a new technological era and embracing all the new features of modern communication. By implenting the live chat widget on their website, agents are able to have the technology filter the clients for them"
       img2 = "77.png"
 
     />

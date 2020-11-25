@@ -10,15 +10,14 @@ export default function OnlineAgent() {
     <Container>
     <ProjectDescription
       projectHeader = "Online Leasing - Agent Experience"
-      projectExplainer="Login:mister@t.com Password:Cockapoo A simplied solution to rent properties. Agents can send a link to potential renters and renters can complete the standard rental process from the comfort of their home."
+      projectExplainer="The sister product to Online Leasing - Renter UX. This product allows agents to see all applicants documents and approve on a case by case basis. This product is still avaible to show on a per request basis."
       link="https://apply.funnelleasing.com/2/login"
       img = "54.png"
       problem="Problem"
-      problemContent="Renting an apartment in a market like New York City was always a time sensitive problem. Gatering documents, staying ontop of roommates to submit documents, submitting bank statements, inviting guarantors, etc is a long winded process. "
+      problemContent="Agents workflows were primarly dealing with paper leases and paper documents. Needless to say, its not the most modern system. "
       solution="Solution"
-      solutionContent="Online Leasing gives renters an easier way to rent an apartment. By filling out the app online in the comfort of their home, it makes reanting an apartment almost enjoyable."
-      img2 = "56.png"
-
+      solutionContent="Online Leasing - Agent UX gives agents an easier way to approve clients. Agents can review the required documents, contact main applicants, guarantors and co-applicants on a case by case basis"
+      img2 = "54.png"
     />
     </Container>
   )

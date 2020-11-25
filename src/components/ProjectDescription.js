@@ -1,7 +1,5 @@
 import React from "react";
 import ReactDOM from 'react-dom'
-import { useEffect, useState } from 'react'
-
 import { Grid, Button,Container, Image } from 'semantic-ui-react'
 
 
