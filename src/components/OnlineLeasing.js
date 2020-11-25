@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import ProjectDescription from "./ProjectDescription";
 import { render } from 'react-dom';
-import { useTrail, a } from 'react-spring'
 import { Header, Container,Grid, Image, Button } from 'semantic-ui-react'
 
 

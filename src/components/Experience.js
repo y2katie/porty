@@ -7,7 +7,7 @@ import { useTrail, a } from 'react-spring'
 const Experience = () => {
   return (
     <>
-    <Explainer />
+    <Explainer header="Experience" />
     <Grid columns={3} stackable className="experience" >
     <Grid.Row>
       <Grid.Column>

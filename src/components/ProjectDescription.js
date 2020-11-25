@@ -1,14 +1,13 @@
 import React from "react";
 import ReactDOM from 'react-dom'
-import { useSpring, animated } from 'react-spring'
+import { useEffect, useState } from 'react'
+
 import { Grid, Button,Container, Image } from 'semantic-ui-react'
 
 
 const ProjectDescription = (props) => {
-
   return (
 <>
-
 <Container centered>
     <Grid centered>
         <h1> {props.projectHeader} </h1>

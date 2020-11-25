@@ -5,29 +5,29 @@ import { Header, Grid, Image, Button } from 'semantic-ui-react';
 
 export default function Starter() {
   const ref = useRef([])
+   const [items, set] = useState([])
+   const transitions = useTransition(items, null, {
+     from: { opacity: 0, height: 0, innerHeight: 0, transform: 'perspective(600px) rotateX(0deg)', color: '#8fa5b6' },
+     enter: [
+       { opacity: 1, height: 80, innerHeight: 80 },
+       { transform: 'perspective(600px) rotateX(180deg)', color: '#28d79f' },
+       { transform: 'perspective(600px) rotateX(0deg)' },
+     ],
+     leave: [{ color: '#c23369' }, { innerHeight: 0 }, { opacity: 0, height: 0 }],
+     update: { color: '#28b4d7' },
+   })
 
-  const [items, set] = useState([])
-  const transitions = useTransition(items, null, {
-    from: { opacity: 0, height: 0, innerHeight: 0, transform: 'perspective(600px) rotateX(0deg)', color: '#FB6161' },
-    enter: [
-      { opacity: 1, height: 80, innerHeight: 80 },
-      { transform: 'perspective(600px) rotateX(180deg)', color: '#3A3A3A' },
-      { transform: 'perspective(600px) rotateX(0deg)' },
-    ],
-    leave: [{ color: '#F6C9A0' }, { innerHeight: 0 }, { opacity: 0, height: 0 }],
-    update: { color: '#D3634B' },
-  })
+   const reset = useCallback(() => {
+     ref.current.map(clearTimeout)
+     ref.current = []
+     set([])
+     ref.current.push(setTimeout(() => set(['Designer', 'Developer', 'Illustrator']), 2000))
+     ref.current.push(setTimeout(() => set(['Designer', 'Adjunct Prof']), 5000))
+     ref.current.push(setTimeout(() => set(['Cross Sticher', 'Baker']), 5000))
+     ref.current.push(setTimeout(() => set(['Designer', 'Developer','Yoga Instructor', 'Illustrator', 'Cross Sticher', 'Baker']), 8000))
+   }, [])
 
-  const reset = useCallback(() => {
-    ref.current.map(clearTimeout)
-    ref.current = []
-    set([])
-    ref.current.push(setTimeout(() => set(['Welcome', 'To My Site']), 1000))
-    ref.current.push(setTimeout(() => set(['Cross Stitcher', 'Dog Lover', 'Baker']), 5000))
-    ref.current.push(setTimeout(() => set(['Developer', 'Designer','Yoga Instructor', 'Illustrator', "Adjunct Prof", "UI Designer"]), 8000))
-  }, [])
-
-  useEffect(() => void reset(), [])
+   useEffect(() => void reset(), [])
 
   return (
     <div>

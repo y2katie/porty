@@ -10,7 +10,11 @@ body {
   background-color:#F9EDED;
 }
 
-
+.centered {
+  text-align: center !important;
+  margin-top:-100px;
+  margin-bottom:140px;
+}
 
 h1 {
   font-size:60px !important;
@@ -37,7 +41,8 @@ code {
 }
 
 .explainwave {
-  margin-top:-240px;
+  /* margin-top:-240px; */
+  margin-top:90px;
 }
 
 .explainer {
@@ -58,19 +63,20 @@ code {
 
 .transitions-item {
   overflow: hidden;
-  width: 100vw;
-  font-family:"Playfair Display";
+  width: 100%;
   color: white;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   font-size: 4em;
-  font-weight: 500;
+  font-family:"Roboto", sans-serif;
+  font-weight: 800;
   will-change: transform, opacity, height;
   white-space: nowrap;
   cursor: pointer;
-  line-height: 40px;
+  line-height: 90px;
 }
+
 
 .list {
   position: relative;
@@ -104,6 +110,8 @@ code {
 .ui.button:hover{
   background-color:#f6d6cf;
 }
+
+
 
 .card {
   width: 400px;
@@ -245,7 +253,7 @@ a {
 
 
 
-@media(max-width:992px) {
+@media(max-width:767px) {
   .faces{
     margin-top:0px;
     margin:0 auto;

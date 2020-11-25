@@ -6,7 +6,7 @@ import { Grid, Image, Container } from 'semantic-ui-react'
 const Testing = () => (
   <Container>
   <Grid stackable>
-  <h1 center> Portfolio </ h1>
+  <h1 className="center"> Portfolio </ h1>
 
     <Grid.Row columns={2}>
       <Grid.Column>
@@ -38,24 +38,28 @@ const Testing = () => (
         </Link>
       </Grid.Column>
     </Grid.Row>
+      <Grid.Row columns={2}>
+        <Grid.Column>
+        One Percent
+        <Link to="/onepercent">
+          <Image src='62.png' />
+        </Link>
+        </Grid.Column>
+        <Grid.Column>
+        <h3> Baked</h3>
+        <Link to="/onepercent">
+          <Image src='59.png' />
+        </Link>
+        </Grid.Column>
+      </Grid.Row>
     <Grid.Row columns={2}>
-      <Grid.Column>
+
+    <Grid.Column>
       <Link to="/nicejewlery">
         <h3> Nice Jewlery </h3>
         <Image src='27.png' />
       </Link>
-      </Grid.Column>
-      <Grid.Column>
-      <h3> Baked</h3>
-        <Image src='59.png' />
-      </Grid.Column>
-    </Grid.Row>
-    <Grid.Row columns={2}>
-    <Grid.Column>
-    <h3> One Percent </h3>
-    <Link to="/onepercent">
-      <Image src='62.png' />
-    </Link>
+
     </Grid.Column>
 
 
