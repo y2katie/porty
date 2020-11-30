@@ -39,8 +39,7 @@ export default function ImageCopy() {
 </svg>
 
   <Grid className="imageCopy" stackable>
-  <Grid.Column width={1}>
-  </Grid.Column>
+
 
       <Grid.Column width={4} className="nice">
       <Trail open={open} onClick={() => set((state) => !state)}>
@@ -81,7 +80,7 @@ export default function ImageCopy() {
         <Grid.Column width={2}>
         <Trail open={open} onClick={() => set((state) => !state)}>
 
-            <Image className="imgNice2" src='faces.png' />
+            <Image className="imgNice2" src='104.png' />
             </Trail>
 
         </Grid.Column>
