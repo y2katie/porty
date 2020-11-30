@@ -18,9 +18,8 @@ const Experience = () => {
       </Grid.Column>
       <Grid.Column>
       <b> Responsiblities Include: </b>
-        <p> Designed & developed web applications. Delivered high fidelity designs, prototypes for mainly focusing on
-    dashboard for a food delivery service. Conduct usability testing, contextual inquiry and translate
-    research insights into workable user interfaces. </p>
+        <p> Implementing a mobile first approach to designing websites. Collaborating with designers to ensure designs were efficient
+and technically sound. Conducting A/B testing to identify buigs and UI improvements. </p>
       </Grid.Column>
     </Grid.Row>
 
@@ -48,9 +47,10 @@ const Experience = () => {
         </Grid.Column>
         <Grid.Column>
         <b> Responsiblities Include: </b>
-          <p> Designed & developed web applications. Delivered high fidelity designs, prototypes for mainly focusing on
-    dashboard for a food delivery service. Conduct usability testing, contextual inquiry and translate
-    research insights into workable user interfaces. </p>
+          <p> Create new features, functionality and capabilities for the Nestio
+Product.Conduct usability testing, contextual inquiry and translate
+research insights into workable user interfaces. Collaborate with product managers and engineering teams from
+ideation, design and final front end implementation and testing. </p>
         </Grid.Column>
       </Grid.Row>
 

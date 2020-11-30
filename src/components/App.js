@@ -10,6 +10,8 @@ import OnePercent from './OnePercent'
 import NiceJewlery from './NiceJewlery'
 import HeraldTowers from './HeraldTowers'
 import Cortland from './Cortland'
+import Baked from './Baked'
+
 
 
 
@@ -30,6 +32,8 @@ class App extends Component {
               <Route path="/heraldtowers" component={HeraldTowers} />
               <Route path="/nicejewlery" component={NiceJewlery} />
               <Route path="/cortland" component={Cortland} />
+              <Route path="/baked" component={Baked} />
+
 
 
              </div>

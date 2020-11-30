@@ -9,14 +9,14 @@ export default function Baked() {
   return(
     <ProjectDescription
       projectHeader = "Baked"
-      projectExplainer= "The one percent just dont have enough. I wanted to craft an experience solely for those in that marginal category. Some non essentials were yacht and helipad access as well as the ability to make people disappear on a whim."
-      link="https://katyvonkaty.github.io/One-Percent/"
-      img = "25.png"
+      projectExplainer= "A dating app for baked goods looking to meet, mingle and who are single. Any baked good with a sugar content about 80% is welcome on our dating platform. No gluten free products allowed, sorry."
+      link="https://enigmatic-refuge-86110.herokuapp.com"
+      img = "84.png"
       problem="Problem"
-      problemContent="Winston and Harper IV were having trouble figuring out how to throw their annual hamptons soiree during the pandemic. The pandemic was such a burden on them and their friends, so they wanted an app to help make their lives easier."
+      problemContent="Image you're a little lemon square out in SoHo and you get the urge for a Macaron. Now you dont have to worry - Baked has got you covered."
       solution="Solution"
-      solutionContent="Let them eat cake! This app provides in demand functionality of buying elections, people, islands, countries you name it. You need a net worth of 5.5 mil to buy in, but can you really put a price on exclusivity?"
-      img2 = "63.png"
+      solutionContent="Swipe through millions of appetizing desserts until you find one you like!"
+      img2 = "87.png"
 
     />
   )

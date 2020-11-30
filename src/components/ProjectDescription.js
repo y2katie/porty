@@ -10,10 +10,11 @@ const ProjectDescription = (props) => {
     <Grid centered>
         <h1> {props.projectHeader} </h1>
         <p> {props.projectExplainer} </p>
+          <p> {props.login} </p>
         <button class="ui button"> <a href={props.link}> View Project </a> </button>
         <Grid.Row centered>
           <Grid.Column width={16}>
-            <Image centered src={props.img} />
+            <Image massive centered src={props.img} />
           </Grid.Column>
         </Grid.Row>
         <Grid.Row centered width={12}>
@@ -26,7 +27,7 @@ const ProjectDescription = (props) => {
         </Grid.Row>
         <Grid.Row centered>
           <Grid.Column width={16}>
-            <Image centered src={props.img2} />
+            <Image centered massive src={props.img2} />
           </Grid.Column>
         </Grid.Row>
           </Grid>

@@ -67,8 +67,8 @@ code {
   justify-content: flex-start;
   align-items: center;
   font-size: 4em;
-  font-family:"Roboto", sans-serif;
-  font-weight: 800;
+  font-family:"Playfair Display", sans-serif;
+  font-weight: 400;
   will-change: transform, opacity, height;
   white-space: nowrap;
   cursor: pointer;

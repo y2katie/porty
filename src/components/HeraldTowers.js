@@ -10,14 +10,14 @@ export default function HeraldTowers() {
     <Container>
     <ProjectDescription
       projectHeader = "Hearald Towers"
-      projectExplainer="Working with the Herald Towers marketing team to come up with a site that encompassed their brand and provided a succint functionality to their users."
+      projectExplainer="Herald towers is a rental property in Manhattan that offers optimal closet space, a variety of kitchen finishes and a robust amenity offering, are just some of the reasons to call Herald Towers home.."
       link="https://www.heraldtowers.com/"
-      img = "65.png"
+      img = "96.png"
       problem="Problem"
-      problemContent="Renting an apartment in a market like New York City was always a time sensitive problem. Gatering documents, staying ontop of roommates to submit documents, submitting bank statements, inviting guarantors, etc is a long winded process. "
+      problemContent="Herald Towers was looking for a software that could manage their leads as well as show availabilities to potential renters. "
       solution="Solution"
-      solutionContent="Online Leasing gives renters an easier way to rent an apartment. By filling out the app online in the comfort of their home, it makes reanting an apartment almost enjoyable."
-      img2 = "67.png"
+      solutionContent="Working with the Herald Towers marketing team to come up with a site that encompassed their brand and provided a succint functionality to their users."
+      img2 = "95.png"
 
     />
     </Container>

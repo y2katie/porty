@@ -12,8 +12,13 @@ export default [
   {
     css:
       'url(https://cdn.dribbble.com/users/2064103/screenshots/14207293/media/42a7793286278a66abf4286de9a0a1b4.jpg)',
-    height: 300
+    height: 450
+  },{
+    css:
+      'url(https://cdn.dribbble.com/users/2064103/screenshots/14669796/media/6fe68c1b38453c5b522600ec6edecb68.jpg)',
+    height: 450
   },
+
   {
     css:
       'url(https://cdn.dribbble.com/users/2064103/screenshots/14159247/media/b07c8a687f159b0ec1cc6e43e7a5e3cd.jpg)',

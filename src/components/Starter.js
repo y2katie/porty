@@ -7,14 +7,14 @@ export default function Starter() {
   const ref = useRef([])
    const [items, set] = useState([])
    const transitions = useTransition(items, null, {
-     from: { opacity: 0, height: 0, innerHeight: 0, transform: 'perspective(600px) rotateX(0deg)', color: '#8fa5b6' },
+     from: { opacity: 0, height: 0, innerHeight: 0, transform: 'perspective(600px) rotateX(0deg)', color: '#F46363' },
      enter: [
        { opacity: 1, height: 80, innerHeight: 80 },
-       { transform: 'perspective(600px) rotateX(180deg)', color: '#28d79f' },
+       { transform: 'perspective(600px) rotateX(180deg)', color: '#F2A45C' },
        { transform: 'perspective(600px) rotateX(0deg)' },
      ],
      leave: [{ color: '#c23369' }, { innerHeight: 0 }, { opacity: 0, height: 0 }],
-     update: { color: '#28b4d7' },
+     update: { color: '#E09E90' },
    })
 
    const reset = useCallback(() => {
@@ -23,7 +23,7 @@ export default function Starter() {
      set([])
      ref.current.push(setTimeout(() => set(['Designer', 'Developer', 'Illustrator']), 2000))
      ref.current.push(setTimeout(() => set(['Designer', 'Adjunct Prof']), 5000))
-     ref.current.push(setTimeout(() => set(['Cross Sticher', 'Baker']), 5000))
+     ref.current.push(setTimeout(() => set(['Cross Sticther', 'Baker', 'Dog Obsessive']), 5000))
      ref.current.push(setTimeout(() => set(['Designer', 'Developer','Yoga Instructor', 'Illustrator', 'Cross Sticher', 'Baker']), 8000))
    }, [])
 
@@ -35,7 +35,7 @@ export default function Starter() {
         <Grid.Column width={1}>
         </Grid.Column>
         <Grid.Column width={6}>
-        <h1> Hi There, I'm Katie </h1>
+        <h1> Hi, I'm Katie </h1>
         {transitions.map(({ item, props: { innerHeight, ...rest }, key }) => (
           <animated.div className="transitions-item" key={key} style={rest} onClick={reset}>
             <animated.div style={{ overflow: 'hidden', height: innerHeight }}>{item}</animated.div>

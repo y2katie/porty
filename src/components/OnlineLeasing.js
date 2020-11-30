@@ -9,14 +9,14 @@ export default function OnlineLeasing() {
     <Container>
     <ProjectDescription
       projectHeader = "Online Leasing - Renter Experience"
-      projectExplainer="Login:mister@t.com Password:Cockapoo A simplied solution to rent properties. Agents can send a link to potential renters and renters can complete the standard rental process from the comfort of their home."
+      projectExplainer=" A simplied solution to rent properties. Agents can send a link to potential renters and renters can complete the standard rental process from the comfort of their home. Login = Login:mister@t.com  || Password:Cockapoo"
       link="https://apply.funnelleasing.com/2/login"
-      img = "23.png"
+      img = "92.png"
       problem="Problem"
       problemContent="Renting an apartment in a market like New York City was always a time sensitive problem. Gatering documents, staying ontop of roommates to submit documents, submitting bank statements, inviting guarantors, etc is a long winded process. "
       solution="Solution"
       solutionContent="Online Leasing gives renters an easier way to rent an apartment. By filling out the app online in the comfort of their home, it makes reanting an apartment almost enjoyable."
-      img2 = "24.png"
+      img2 = "93.png"
 
     />
     </Container>
