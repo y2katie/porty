@@ -63,8 +63,6 @@ const Testing = () => (
 
 
     </Grid.Column>
-
-
       <Grid.Column>
       <a href="https://kanye-gamma.vercel.app/">
       <h3> Kanye</h3>

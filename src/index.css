@@ -134,7 +134,7 @@ code {
   will-change: transform;
   margin-top:-50px;
 }
-
+/* 
 .card2 {
   width: 400px;
   height: 400px;
@@ -145,7 +145,7 @@ code {
   transition: box-shadow 0.5s;
   will-change: transform;
   margin-top:-50px;
-}
+} */
 
 
 a {

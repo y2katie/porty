@@ -1,7 +1,6 @@
-import React, {useState} from "react";
+import React from "react";
 import ProjectDescription from "./ProjectDescription";
-import { render } from 'react-dom';
-import { Header, Container,Grid, Image, Button } from 'semantic-ui-react'
+import { Container } from 'semantic-ui-react'
 
 
 export default function OnlineLeasing() {

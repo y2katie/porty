@@ -1,6 +1,5 @@
 import React from "react";
-import ReactDOM from 'react-dom'
-import { Grid, Button,Container, Image } from 'semantic-ui-react'
+import { Grid,Container, Image } from 'semantic-ui-react'
 
 
 const ProjectDescription = (props) => {

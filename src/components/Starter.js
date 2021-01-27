@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect, useCallback } from 'react'
 import { render } from 'react-dom'
-import { useTransition,useSpring, animated } from 'react-spring'
-import { Header, Grid, Image, Button } from 'semantic-ui-react';
+import { useTransition, animated } from 'react-spring'
+import { Grid, Image } from 'semantic-ui-react';
 
 export default function Starter() {
   const ref = useRef([])
@@ -21,7 +21,7 @@ export default function Starter() {
      ref.current.map(clearTimeout)
      ref.current = []
      set([])
-     ref.current.push(setTimeout(() => set(['Designer', 'Developer', 'Illustrator']), 2000))
+     ref.current.push(setTimeout(() => set(['Designer', 'Developer', 'Illustrator']), 1000))
      ref.current.push(setTimeout(() => set(['Designer', 'Adjunct Prof']), 5000))
      ref.current.push(setTimeout(() => set(['Cross Sticther', 'Baker', 'Dog Obsessive']), 5000))
      ref.current.push(setTimeout(() => set(['Designer', 'Developer','Yoga Instructor', 'Illustrator', 'Cross Sticher', 'Baker']), 8000))

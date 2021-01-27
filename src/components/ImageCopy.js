@@ -1,7 +1,6 @@
 import React, {useState} from "react";
-import { render } from 'react-dom'
 import { useTrail, a } from 'react-spring'
-import { Header, Grid, Image, Button } from 'semantic-ui-react'
+import {  Grid, Image } from 'semantic-ui-react'
 
 
 function Trail({ open, children, ...props }) {

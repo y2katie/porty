@@ -1,8 +1,6 @@
-import React, {useState} from "react";
+import React from "react";
 import ProjectDescription from "./ProjectDescription";
-import { render } from 'react-dom';
-import { useTrail, a } from 'react-spring'
-import { Header, Grid, Image, Button } from 'semantic-ui-react'
+
 
 
 export default function Cortland() {

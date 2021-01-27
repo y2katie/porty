@@ -1,8 +1,7 @@
-import React, {useState} from "react"
+import React from "react"
 import Explainer from "./Explainer";
-import { Grid, Image, Button, Header } from 'semantic-ui-react'
-import { render } from 'react-dom'
-import { useTrail, a } from 'react-spring'
+import { Grid } from 'semantic-ui-react'
+
 
 const Experience = () => {
   return (

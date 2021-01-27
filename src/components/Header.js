@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { Menu, Container } from 'semantic-ui-react'
-import Contact from "./Contact"
-import Portfolio from "./Portfolio"
+import { BrowserRouter as Link } from "react-router-dom";
+import { Menu, Sticky } from 'semantic-ui-react'
+
 
 
 
@@ -10,6 +9,7 @@ class Header extends Component {
   render() {
 
     return (
+      <Sticky>
         <Menu>
           <Menu.Item>
             <Link name='Experience' to="/">
@@ -35,8 +35,15 @@ class Header extends Component {
             </a>
             </Menu.Item>
 
+            <Menu.Item>
+              <a href="KJ_2020.pdf" download>
+                 Download Resume
+              </a>
+              </Menu.Item>
+
 
         </Menu>
+        </Sticky>
     );
   }
 }

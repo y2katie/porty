@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from 'react-dom'
 import { Grid, Image } from 'semantic-ui-react'
 
 
