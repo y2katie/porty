@@ -76,7 +76,20 @@ export default [
   },
   {
     css:
-      'url(https://cdn.dribbble.com/users/2064103/screenshots/12083015/media/dcefa8b48f90a59ad562d23d432839cf.jpg)',
-    height: 550
+      'url(https://cdn.dribbble.com/users/2064103/screenshots/15117909/media/6060c38c8d290d444ee4dc9444361e2b.jpg?compress=1&resize=1600x1200)',
+    height: 750
+  },
+  {
+    css:
+      'url(https://cdn.dribbble.com/users/2064103/screenshots/15102647/media/00c09d95b94caebee14c28328a7a7e05.jpg?compress=1&resize=1600x1200)',
+    height: 750
   }
+  ,
+  {
+    css:
+      'url(https://cdn.dribbble.com/users/2064103/screenshots/15021684/media/edfeb5c787a14abaa73064f59a406b72.png?compress=1&resize=1600x1200)',
+    height: 650
+  }
+
+
 ]
