@@ -88,7 +88,7 @@ export default [
   {
     css:
       'url(https://cdn.dribbble.com/users/2064103/screenshots/15021684/media/edfeb5c787a14abaa73064f59a406b72.png?compress=1&resize=1600x1200)',
-    height: 650
+    height: 650,
   }
 
 
