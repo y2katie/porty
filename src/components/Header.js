@@ -1,52 +1,41 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Link } from "react-router-dom";
 import { Menu, Sticky } from 'semantic-ui-react'
-
+import logo from "../assets/images/k.png"
 
 
 
 class Header extends Component {
-  render() {
-
-    return (
-      <Sticky>
-        <Menu>
-          <Menu.Item>
-            <Link name='Experience' to="/">
-              <b>  Katie Jordan </b>
-            </Link>
-            </Menu.Item>
-
-              <Menu.Item>
-            <a href="https://www.linkedin.com/in/katie-jordan-designer/">
-               Linkedin
-            </a>
-              </Menu.Item>
-
-            <Menu.Item>
-              <a href="https://dribbble.com/kj0203">
-                 Illustrations
-              </a>
-          </Menu.Item>
-
-          <Menu.Item>
-            <a href="https://github.com/katyvonkaty">
-               Github
-            </a>
-            </Menu.Item>
-
-            <Menu.Item>
-              <a href="KJ_2020.pdf" download>
-                 Download Resume
-              </a>
-              </Menu.Item>
-
-
-        </Menu>
-        </Sticky>
-    );
-  }
+render(){
+  return(
+    <Menu fluid widths={5} stackable>
+       <Menu.Item
+         name='Linkedin'
+         onClick={this.handleItemClick}
+       />
+       <Menu.Item
+         name='Github'
+         onClick={this.handleItemClick}
+       />
+       <Menu.Item>
+           <img class="logo" src= {logo} />
+       </Menu.Item>
+       <Menu.Item
+         name='Resume'
+         onClick={this.handleItemClick}
+       />
+       <Menu.Item
+         name='About'
+         onClick={this.handleItemClick}
+       />
+     </Menu>
+  )
 }
+}
+
+
+
+
 
 export default Header;
 
