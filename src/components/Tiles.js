@@ -7,7 +7,7 @@ import agent from "../assets/images/agent.png";
 
 const Tiles = () => (
   <Container fluid className="tiles">
-    <Grid>
+    <Grid stackable>
       <Grid.Row columns={4}>
         <Grid.Column className="grow">
             <Image src={bb} />
@@ -24,7 +24,7 @@ const Tiles = () => (
       </Grid.Row>
     </Grid>
 
-    <Grid>
+    <Grid stackable style={{marginTop:"130px", marginBottom:"130px"}}>
       <Grid.Row columns={4}>
         <Grid.Column className="grow">
             <Image src={bb} />
@@ -41,7 +41,7 @@ const Tiles = () => (
       </Grid.Row>
     </Grid>
 
-    <Grid>
+    <Grid stackable>
       <Grid.Row columns={4}>
         <Grid.Column className="grow">
             <Image src={bb} />
@@ -57,6 +57,8 @@ const Tiles = () => (
         </Grid.Column>
       </Grid.Row>
     </Grid>
+
+
   </Container>
 );
 
