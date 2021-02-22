@@ -8,7 +8,7 @@ import logo from "../assets/images/k.png"
 class Header extends Component {
 render(){
   return(
-    <Menu fluid widths={5} stackable>
+    <Menu fluid widths={4} stackable>
        <Menu.Item
          name='Linkedin'
          onClick={this.handleItemClick}
@@ -17,15 +17,12 @@ render(){
          name='Github'
          onClick={this.handleItemClick}
        />
-       <Menu.Item>
-           <img class="logo" src= {logo} />
-       </Menu.Item>
        <Menu.Item
-         name='Resume'
+         name='Illustrations'
          onClick={this.handleItemClick}
        />
        <Menu.Item
-         name='About'
+         name='Contact'
          onClick={this.handleItemClick}
        />
      </Menu>

@@ -6,6 +6,8 @@ import { Grid, Image, Container } from "semantic-ui-react";
 const Testing = () => (
   <Container style={{ marginTop: "100px" }}>
     <Grid stackable>
+    <h1 style={{fontSize:"70px", color:"white"}}> Work </h1>
+
       <Grid.Row columns={2}>
         <Grid.Column>
           <Link to="/onlineleasing">

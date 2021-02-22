@@ -2,6 +2,8 @@ import { render } from 'react-dom'
 import React, { useState, useEffect, useMemo } from 'react'
 import { useTransition, a } from 'react-spring'
 import shuffle from 'lodash/shuffle'
+import { Container } from 'semantic-ui-react'
+
 import useMeasure from './useMeasure'
 import useMedia from './useMedia'
 import data from './data'
@@ -37,8 +39,8 @@ const Illustrations = () => {
   })
   // Render the grid
   return (
-    <div>
-    <h1 className="centered"> Illustrations </h1>
+    <Container>
+    <h1 style={{fontSize:"70px", color:"white", marginTop:"50px"}}> Illustrations </h1>
 
     <div {...bind} class="list" style={{ height: Math.max(...heights) }}>
       {transitions.map(({ item, props: { xy, ...rest }, key }) => (
@@ -50,7 +52,7 @@ const Illustrations = () => {
         </a.div>
       ))}
     </div>
-    </div>
+    </Container>
   )
 }
 
