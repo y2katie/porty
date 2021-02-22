@@ -17,6 +17,7 @@ class Home extends React.Component{
         return(
           <React.Fragment>
             <Reeses />
+            <Illustrations />
 
 
           </React.Fragment>

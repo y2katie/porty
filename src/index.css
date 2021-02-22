@@ -15,8 +15,39 @@ body {
   text-align: center !important;
 }
 
+.reese {
+  width:65%;
+  margin:0 auto;
+  display:block;
+}
+
+.test {
+  background-color:rgb(50, 19, 25);
+fill:rgb(219, 95, 50);
+background-size:988px 988px;
+background-repeat:repeat-x;
+background-image:url("data:image/svg+xml;charset=utf8,%3Csvg id='Layer_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 500' style='enable-background:new 0 0 500 500'%3E%3Cstyle type='text/css'%3E .st0{fill:rgb(219, 95, 50);} %3C/style%3E%3Cpath class='st0' d='M0,0v9h0.5C0.8,22.3,11.7,33,25,33S49.2,22.3,49.5,9h1C50.8,22.3,61.7,33,75,33S99.2,22.3,99.5,9h1 c0.3,13.3,11.2,24,24.5,24s24.2-10.7,24.5-24h1c0.3,13.3,11.2,24,24.5,24s24.2-10.7,24.5-24h1c0.3,13.3,11.2,24,24.5,24 s24.2-10.7,24.5-24h1c0.3,13.3,11.2,24,24.5,24s24.2-10.7,24.5-24h1c0.3,13.3,11.2,24,24.5,24s24.2-10.7,24.5-24h1 c0.3,13.3,11.2,24,24.5,24s24.2-10.7,24.5-24h1c0.3,13.3,11.2,24,24.5,24s24.2-10.7,24.5-24h1c0.3,13.3,11.2,24,24.5,24 s24.2-10.7,24.5-24h0.5V0H0z'/%3E%3C/svg%3E");
+}
+
 .logo {
   width:30% !important;
+}
+
+.katie {
+  font-family: "Pacifico";
+  text-shadow:
+      -6px -6px 0 #472A0E,
+       0   -6px 0 #472A0E,
+       6px -6px 0 #472A0E,
+       6px  0   0 #472A0E,
+       6px  6px 0 #472A0E,
+       0    6px 0 #472A0E,
+      -6px  6px 0 #472A0E,
+      -6px  0   0 #472A0E;
+
+  color:#FDEF5A;
+  font-size:110px;
+
 }
 /*
 .me {
@@ -27,7 +58,7 @@ body {
  text-align: center;
 } */
 
-/* .reeses {
+.reeses {
 width:40%;
 float:right
 
@@ -37,7 +68,7 @@ float:right
 width:40%;
 float:left
 
-} */
+}
 
 .crown {
   width:40%;
@@ -284,6 +315,10 @@ a {
     margin-top:0px;
     margin:0 auto;
     display: none;
+  }
+
+  .crown {
+    width:100%;
   }
   .ui.huge.header {
     font-size: 55px;
