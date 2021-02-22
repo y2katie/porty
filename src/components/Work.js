@@ -1,9 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import bb from "../assets/images/bb.jpg";
+import roar from "../assets/images/roar.jpg";
+
 
 import { Grid, Image, Container } from "semantic-ui-react";
 
-const Testing = () => (
+const Work = () => (
   <Container style={{ marginTop: "100px" }}>
     <Grid stackable>
     <h1 style={{fontSize:"70px", color:"white"}}> Work </h1>
@@ -22,10 +25,25 @@ const Testing = () => (
           <Link to="/onlineagent">
             <h2> Online Leasing - Agent</h2>
             <Image
-              
+
               src="94.png"
             />
           </Link>
+        </Grid.Column>
+      </Grid.Row>
+
+      <Grid.Row columns={2}>
+        <Grid.Column>
+          <Link to="/NiceJewlery">
+            <h2> BuzzBell</h2>
+            <Image src={bb}  style={{borderRadius:"10px"}}/>
+          </Link>
+        </Grid.Column>
+        <Grid.Column>
+          <a href="https://kanye-gamma.vercel.app/">
+            <h2> Roar </h2>
+            <Image src={roar} style={{borderRadius:"10px"}} />
+          </a>
         </Grid.Column>
       </Grid.Row>
       <Grid.Row columns={2}>
@@ -71,8 +89,9 @@ const Testing = () => (
           </a>
         </Grid.Column>
       </Grid.Row>
+
     </Grid>
   </Container>
 );
 
-export default Testing;
+export default Work;

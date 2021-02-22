@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { HashRouter, Route, Router, Link, Switch } from "react-router-dom";
 import Header from "./Header"
 import Home from './Home'
-import Contact from './Contact'
 import Portfolio from './Portfolio'
 import OnlineLeasing from './OnlineLeasing'
 import OnlineAgent from './OnlineAgent'
@@ -23,7 +22,7 @@ class App extends Component {
       <HashRouter>
             <div className="App">
               <Route exact path="/"  component={Reeses} />
-              <Route path="/contact" component={Contact} />
+              <Route path="/home" component={Home} />
               <Route path="/onlineleasing" component={OnlineLeasing} />
               <Route path="/onepercent" component={OnePercent} />
               <Route path="/onlineagent" component={OnlineAgent} />

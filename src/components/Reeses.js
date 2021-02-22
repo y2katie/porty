@@ -5,8 +5,6 @@ import { Container, Grid, Segment, Button } from "semantic-ui-react";
 import katie from "../assets/images/katie.png";
 import reesebg from "../assets/images/reese_bg.png";
 import btn from "../assets/images/btn.png";
-
-
 import reese from "../assets/images/reese.png";
 import reeses from "../assets/images/reeses.png";
 import button from "../assets/images/button.png";
@@ -24,6 +22,7 @@ import {
   StickyIn,
   ZoomIn,
 } from "react-scroll-motion";
+
 
 const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
 const FadeUp = batch(Fade(), Move(), Sticky());
@@ -76,7 +75,7 @@ const Reeses = () => (
       <Grid.Column></Grid.Column>
       <Grid.Column width={6}>
         <img className="me" src={katie} />
-        <Link to="/contact">
+        <Link to="/home">
           <img className="crown" src={btn} />
         </Link>
         <h3 style={{ textAlign: "center", color:"#281712" }}>I am versatile like the reese's. Starting out as a peanut butter cup and trying several different markets for the ever elusive product market fit. I enjoy designing, coding and most things technology. I also enjoy reese's. </h3>

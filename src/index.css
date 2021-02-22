@@ -148,32 +148,6 @@ code {
 }
 
 
-
-.card {
-  width: 400px;
-  height: 400px;
-  border-radius: 5px;
-  background-size: cover;
-  background-image:url("./images/faces.png");
-  background-position: center center;
-  transition: box-shadow 0.5s;
-  will-change: transform;
-  margin-top:-50px;
-}
-
-.card1 {
-  width: 400px;
-  height: 400px;
-  border-radius: 5px;
-  background-size: cover;
-  background-image:url("./images/jeff.jpg");
-  background-position: center center;
-  transition: box-shadow 0.5s;
-  will-change: transform;
-  margin-top:-50px;
-}
-
-
 a {
   color:#black !important;
 }
@@ -247,13 +221,6 @@ a {
 }
 
 
-.faces {
-  margin-top:-90px;
-margin-bottom:30px;
-animation: move 0.6s infinite linear alternate;
-
-}
-
 a {
   color: rgba(0,0,0,.87)
 }
@@ -277,11 +244,6 @@ a {
 
 
 @media(max-width:767px) {
-  .faces{
-    margin-top:0px;
-    margin:0 auto;
-    display: none;
-  }
 
   .home {
     width:40% !important;

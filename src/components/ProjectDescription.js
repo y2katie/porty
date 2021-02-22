@@ -6,7 +6,7 @@ import home from "../assets/images/home.png";
 const ProjectDescription = (props) => {
   return (
     <>
-      <Link to="/contact">
+      <Link to="/home">
         <img style={{ width: "20%" }} src={home} className="home" />
       </Link>
       <Container centered style={{ marginTop: "100px" }}>

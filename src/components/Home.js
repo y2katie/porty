@@ -1,27 +1,21 @@
-import React from 'react';
-import ImageCopy from "./ImageCopy"
-import Starter from "./Starter"
-import Experience from "./Experience"
-import Testing from "./Testing"
-import Illustrations from "./Illustrations"
-import Reeses from "./Reeses"
+import React from "react"
+import ProjectDescription from "./ProjectDescription"
+import TimingExample from "./test"
+import Work from "./Work"
 import Header from "./Header"
-
-
+import Illustrations from "./Illustrations"
 
 
 class Home extends React.Component{
+  render() {
+    return(
+      <>
+        <Header />
+        <Work />
+        <Illustrations />
+        </>
+    )
+  }
+}
 
-    render(){
-
-        return(
-          <React.Fragment>
-          <Header />
-            <Illustrations />
-
-
-          </React.Fragment>
-
-)}};
-
-export default Home;
+export default Home
