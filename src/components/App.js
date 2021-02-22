@@ -11,8 +11,7 @@ import NiceJewlery from './NiceJewlery'
 import HeraldTowers from './HeraldTowers'
 import Cortland from './Cortland'
 import Baked from './Baked'
-
-
+import Reeses from './Reeses'
 
 
 
@@ -22,8 +21,8 @@ class App extends Component {
     return (
       <HashRouter>
             <div className="App">
-            <Header />
-              <Route exact path="/" component={Home} />
+            <Route path="/"  component={Reeses} />
+              <Route path="/home" component={Home} />
               <Route path="/portfolio" component={Portfolio} />
               <Route path="/contact" component={Contact} />
               <Route path="/onlineleasing" component={OnlineLeasing} />

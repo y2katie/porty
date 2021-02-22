@@ -13,6 +13,7 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.0",
+    "react-scroll-motion": "^0.2.1",
     "react-spring": "^8.0.27",
     "react-transition-group": "^1.2.1",
     "react-waypoint": "^9.0.3",

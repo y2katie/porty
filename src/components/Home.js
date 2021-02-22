@@ -4,7 +4,7 @@ import Starter from "./Starter"
 import Experience from "./Experience"
 import Testing from "./Testing"
 import Illustrations from "./Illustrations"
-import Tiles from "./Tiles"
+import Reeses from "./Reeses"
 import Header from "./Header"
 
 
@@ -16,7 +16,8 @@ class Home extends React.Component{
 
         return(
           <React.Fragment>
-            <Tiles />
+            <Reeses />
+
 
           </React.Fragment>
 
