@@ -13,7 +13,7 @@ const Testing = () => (
           <Link to="/onlineleasing">
             <h2> Online Leasing - Renter</h2>
             <Image
-              style={{ boxShadow: "0px 3px 15px rgb(0 0 0 / 20%)" }}
+
               src="93.png"
             />
           </Link>
@@ -22,7 +22,7 @@ const Testing = () => (
           <Link to="/onlineagent">
             <h2> Online Leasing - Agent</h2>
             <Image
-              style={{ boxShadow: "0px 3px 15px rgb(0 0 0 / 20%)" }}
+              
               src="94.png"
             />
           </Link>

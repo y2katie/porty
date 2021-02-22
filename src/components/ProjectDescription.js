@@ -7,7 +7,7 @@ const ProjectDescription = (props) => {
   return (
     <>
       <Link to="/contact">
-        <img style={{ width: "20%" }} src={home} />
+        <img style={{ width: "20%" }} src={home} className="home" />
       </Link>
       <Container centered style={{ marginTop: "100px" }}>
         <Grid centered>
@@ -17,7 +17,7 @@ const ProjectDescription = (props) => {
             <p> {props.login} </p>
             <button class="ui button">
               {" "}
-              <a href={props.link}> View Project </a>{" "}
+              <a href={props.link} target="_blank" > View Project </a>{" "}
             </button>
           </Grid.Column>
 

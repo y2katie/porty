@@ -283,6 +283,9 @@ a {
     display: none;
   }
 
+  .home {
+    width:40% !important;
+  }
   .crown {
     width:100%;
   }
