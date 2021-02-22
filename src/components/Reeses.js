@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Spring } from "react-spring/renderprops";
-
 import { Container, Grid, Segment, Button } from "semantic-ui-react";
 import katie from "../assets/images/katie.png";
 import reesebg from "../assets/images/reese_bg.png";
@@ -29,7 +28,6 @@ import {
 const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
 const FadeUp = batch(Fade(), Move(), Sticky());
 
-// const items = [{reeses},{reese}]
 
 const Reeses = () => (
   <Container fluid>
@@ -78,10 +76,10 @@ const Reeses = () => (
       <Grid.Column></Grid.Column>
       <Grid.Column width={6}>
         <img className="me" src={katie} />
-        <Link to="/illustrations">
+        <Link to="/contact">
           <img className="crown" src={btn} />
         </Link>
-        <h3 style={{ textAlign: "center" }}>I am versatile like the reese's. Starting out as a peanut butter cup and trying several different markets for the ever elusive product market fit. I enjoy designing, coding and most things technology. I also enjoy reese's. </h3>
+        <h3 style={{ textAlign: "center", color:"#281712" }}>I am versatile like the reese's. Starting out as a peanut butter cup and trying several different markets for the ever elusive product market fit. I enjoy designing, coding and most things technology. I also enjoy reese's. </h3>
       </Grid.Column>
       <Grid.Column></Grid.Column>
     </Grid>
@@ -97,5 +95,3 @@ const Reeses = () => (
 );
 
 export default Reeses;
-
-// <h1 className="katie"> Katie Jordan </h1>

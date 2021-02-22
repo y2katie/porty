@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@500&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -9,54 +8,35 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color:#DB5F32;
+  color:white;
 }
+
 
 .centered {
   text-align: center !important;
 }
 
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+
+}
 .reese {
   width:65%;
   margin:0 auto;
   display:block;
 }
 
-.test {
-  background-color:rgb(50, 19, 25);
-fill:rgb(219, 95, 50);
-background-size:988px 988px;
-background-repeat:repeat-x;
-background-image:url("data:image/svg+xml;charset=utf8,%3Csvg id='Layer_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 500' style='enable-background:new 0 0 500 500'%3E%3Cstyle type='text/css'%3E .st0{fill:rgb(219, 95, 50);} %3C/style%3E%3Cpath class='st0' d='M0,0v9h0.5C0.8,22.3,11.7,33,25,33S49.2,22.3,49.5,9h1C50.8,22.3,61.7,33,75,33S99.2,22.3,99.5,9h1 c0.3,13.3,11.2,24,24.5,24s24.2-10.7,24.5-24h1c0.3,13.3,11.2,24,24.5,24s24.2-10.7,24.5-24h1c0.3,13.3,11.2,24,24.5,24 s24.2-10.7,24.5-24h1c0.3,13.3,11.2,24,24.5,24s24.2-10.7,24.5-24h1c0.3,13.3,11.2,24,24.5,24s24.2-10.7,24.5-24h1 c0.3,13.3,11.2,24,24.5,24s24.2-10.7,24.5-24h1c0.3,13.3,11.2,24,24.5,24s24.2-10.7,24.5-24h1c0.3,13.3,11.2,24,24.5,24 s24.2-10.7,24.5-24h0.5V0H0z'/%3E%3C/svg%3E");
+h1,h2,h3,h4,h5 {
+  color: yellow;
+  font-family:'Roboto Condensed', sans-serif;
 }
+
 
 .logo {
   width:30% !important;
 }
 
-.katie {
-  font-family: "Pacifico";
-  text-shadow:
-      -6px -6px 0 #472A0E,
-       0   -6px 0 #472A0E,
-       6px -6px 0 #472A0E,
-       6px  0   0 #472A0E,
-       6px  6px 0 #472A0E,
-       0    6px 0 #472A0E,
-      -6px  6px 0 #472A0E,
-      -6px  0   0 #472A0E;
-
-  color:#FDEF5A;
-  font-size:110px;
-
-}
-/*
-.me {
-  width:60%;
-  margin: auto;
-  display: block;
-  padding: 70px 0;
- text-align: center;
-} */
 
 .reeses {
 width:40%;
@@ -75,8 +55,6 @@ float:left
   margin:0 auto;
   display:block;
 }
-
-
 
 .tiles {
   margin-top:150px !important;
@@ -194,18 +172,6 @@ code {
   will-change: transform;
   margin-top:-50px;
 }
-/*
-.card2 {
-  width: 400px;
-  height: 400px;
-  border-radius: 5px;
-  background-size: cover;
-  background-image:url("./images/kanye.jpg");
-  background-position: top center;
-  transition: box-shadow 0.5s;
-  will-change: transform;
-  margin-top:-50px;
-} */
 
 
 a {

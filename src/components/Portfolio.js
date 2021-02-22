@@ -4,7 +4,7 @@ import { Grid, Image } from 'semantic-ui-react'
 
 const Portfolio = () => {
   return(
-    <Grid>
+    <Grid style={{marginTop:"100px"}}>
       <Grid.Row>
         <Grid.Column width={8}>
           <Image src='rosey.jpg' />
