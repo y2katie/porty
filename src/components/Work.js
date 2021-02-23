@@ -77,10 +77,10 @@ const Work = () => (
       </Grid.Row>
       <Grid.Row columns={2}>
         <Grid.Column>
-          <Link to="/NiceJewlery">
+          <a href="https://quiet-wildwood-52939.herokuapp.com/">
             <h2> Nice Jewlery </h2>
             <Image src="3.png" />
-          </Link>
+          </a>
         </Grid.Column>
         <Grid.Column>
           <a href="https://kanye-gamma.vercel.app/">

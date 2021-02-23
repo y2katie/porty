@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { HashRouter, Route, Router, Link, Switch } from "react-router-dom";
-import Header from "./Header"
+import { HashRouter, Route } from "react-router-dom";
 import Home from './Home'
-import Portfolio from './Portfolio'
 import OnlineLeasing from './OnlineLeasing'
 import OnlineAgent from './OnlineAgent'
 import OnePercent from './OnePercent'
