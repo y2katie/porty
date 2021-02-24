@@ -34,10 +34,10 @@ const Work = () => (
 
       <Grid.Row columns={2}>
         <Grid.Column>
-          <Link to="/NiceJewlery">
+          <a href="https://buzzbell.app/">
             <h2> BuzzBell</h2>
             <Image src={bb}  style={{borderRadius:"10px"}}/>
-          </Link>
+          </a>
         </Grid.Column>
         <Grid.Column>
           <a href="https://kanye-gamma.vercel.app/">
