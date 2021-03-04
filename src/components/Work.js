@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import bb from "../assets/images/bb.jpg";
 import roar from "../assets/images/roar.jpg";
+import star from "../assets/images/star.png";
 
 
 import { Grid, Image, Container } from "semantic-ui-react";
@@ -16,7 +17,6 @@ const Work = () => (
           <Link to="/onlineleasing">
             <h2> Online Leasing - Renter</h2>
             <Image
-
               src="93.png"
             />
           </Link>
@@ -29,6 +29,20 @@ const Work = () => (
               src="94.png"
             />
           </Link>
+        </Grid.Column>
+      </Grid.Row>
+      <Grid.Row columns={2}>
+        <Grid.Column>
+          <a href="/starsnob">
+            <h2> Starsnob</h2>
+            <Image src={star}  style={{borderRadius:"10px"}}/>
+          </a>
+        </Grid.Column>
+        <Grid.Column>
+          <a href="https://kanye-gamma.vercel.app/">
+            <h2> Roar </h2>
+            <Image src={roar} style={{borderRadius:"10px"}} />
+          </a>
         </Grid.Column>
       </Grid.Row>
 
