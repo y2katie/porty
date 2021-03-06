@@ -33,7 +33,7 @@ const Work = () => (
       </Grid.Row>
       <Grid.Row columns={2}>
         <Grid.Column>
-          <a href="/starsnob">
+          <a href="https://starsnob.vercel.app/">
             <h2> Starsnob</h2>
             <Image src={star}  style={{borderRadius:"10px"}}/>
           </a>
