@@ -39,7 +39,7 @@ const Work = () => (
           </a>
         </Grid.Column>
         <Grid.Column>
-          <a href="https://kanye-gamma.vercel.app/">
+          <a href="https://tickertok.vercel.app/" target="_blank">
             <h2> Roar </h2>
             <Image src={roar} style={{borderRadius:"10px"}} />
           </a>
@@ -48,7 +48,7 @@ const Work = () => (
 
       <Grid.Row columns={2}>
         <Grid.Column>
-          <a href="https://buzzbell.app/">
+          <a href="https://buzzbell.app/" target="_blank">
             <h2> BuzzBell</h2>
             <Image src={bb}  style={{borderRadius:"10px"}}/>
           </a>
