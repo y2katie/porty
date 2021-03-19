@@ -40,7 +40,7 @@ const Work = () => (
         </Grid.Column>
         <Grid.Column>
           <a href="https://tickertok.vercel.app/" target="_blank">
-            <h2> Roar </h2>
+            <h2> TickerTok </h2>
             <Image src={roar} style={{borderRadius:"10px"}} />
           </a>
         </Grid.Column>
@@ -54,13 +54,21 @@ const Work = () => (
           </a>
         </Grid.Column>
         <Grid.Column>
-          <a href="https://kanye-gamma.vercel.app/">
-            <h2> Roar </h2>
-            <Image src={roar} style={{borderRadius:"10px"}} />
+          <a href="https://quiet-wildwood-52939.herokuapp.com/">
+            <h2> Nice Jewlery </h2>
+            <Image src="3.png" />
           </a>
         </Grid.Column>
+
       </Grid.Row>
       <Grid.Row columns={2}>
+      <Grid.Column>
+        <Link to="/onepercent">
+          <h2> One Percent </h2>
+          <Image src="101.png" />
+        </Link>
+      </Grid.Column>
+
         <Grid.Column>
           <Link to="/cortland">
             <h2> Cortland Live Chat</h2>
@@ -68,20 +76,14 @@ const Work = () => (
           </Link>
         </Grid.Column>
 
-        <Grid.Column>
-          <Link to="/heraldtowers">
-            <h2> Herald Towers </h2>
-            <Image src="95.png" />
-          </Link>
-        </Grid.Column>
       </Grid.Row>
       <Grid.Row columns={2}>
-        <Grid.Column>
-          <Link to="/onepercent">
-            <h2> One Percent </h2>
-            <Image src="101.png" />
-          </Link>
-        </Grid.Column>
+      <Grid.Column>
+        <a href="https://kanye-gamma.vercel.app/">
+          <h2> Kanye</h2>
+          <Image src="4.png" />
+        </a>
+      </Grid.Column>
         <Grid.Column>
           <Link to="/baked">
             <h2> Baked</h2>
@@ -89,20 +91,7 @@ const Work = () => (
           </Link>
         </Grid.Column>
       </Grid.Row>
-      <Grid.Row columns={2}>
-        <Grid.Column>
-          <a href="https://quiet-wildwood-52939.herokuapp.com/">
-            <h2> Nice Jewlery </h2>
-            <Image src="3.png" />
-          </a>
-        </Grid.Column>
-        <Grid.Column>
-          <a href="https://kanye-gamma.vercel.app/">
-            <h2> Kanye</h2>
-            <Image src="4.png" />
-          </a>
-        </Grid.Column>
-      </Grid.Row>
+
 
     </Grid>
   </Container>
