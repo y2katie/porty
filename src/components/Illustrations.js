@@ -39,7 +39,7 @@ const Illustrations = () => {
   })
   // Render the grid
   return (
-    <Container>
+    <Container fluid style={{padding:"20px" }}>
     <h1 style={{fontSize:"70px", color:"white", marginTop:"50px"}}> Illustrations </h1>
 
     <div {...bind} class="list" style={{ height: Math.max(...heights) }}>
