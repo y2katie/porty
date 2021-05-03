@@ -96,8 +96,10 @@ const Work = () => (
         <Grid.Column>
           <Link to="/baked">
             <h2> Sequencing </h2>
-            <Image src={yoga}  style={{borderRadius:"10px"}}/>
+            <a href="https://sequencing.vercel.app/">
 
+            <Image src={yoga}  style={{borderRadius:"10px"}}/>
+            </a>
           </Link>
         </Grid.Column>
 
