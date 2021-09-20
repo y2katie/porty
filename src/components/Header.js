@@ -1,43 +1,31 @@
-import React, { Component, createRef } from "react";
-import { Menu } from "semantic-ui-react";
+import React from "react";
 
-class Header extends Component {
-  contextRef = createRef();
+import { Grid, Image, Menu, Segment, Input, Label } from "semantic-ui-react";
 
-  render() {
-    return (
-      <Menu className="fixed" fluid widths={4} stackable>
-        <Menu.Item name="Linkedin">
-          {" "}
-          <a href="https://www.linkedin.com/in/katie-jordan-designer/" rel="noreferrer" target="_blank">
-            Linkedin
-          </a>
+const Header = () => (
+  <Grid>
+      <Menu vertical>
+        <Menu.Item>
+          <Label color="teal">1</Label>
+          Inbox
         </Menu.Item>
 
-        <Menu.Item name="Github">
-          {" "}
-          <a href ="https://github.com/katyvonkaty" rel="noreferrer" target="_blank">
-            Github
-          </a>
+        <Menu.Item>
+          <Label>51</Label>
+          Spam
         </Menu.Item>
 
-        <Menu.Item name="Illustrations">
-          {" "}
-          <a href="https://dribbble.com/kj0203" rel="noreferrer" target="_blank">
-            Illustrations
-          </a>
+        <Menu.Item>
+          <Label>1</Label>
+          Updates
         </Menu.Item>
-
-        <Menu.Item name="Linkedin">
-          {" "}
-          <a href="mailto:kj0203@gmail.com" rel="noreferrer" target="_blank">
-            Contact
-          </a>
+        <Menu.Item>
+          <Input icon="search" placeholder="Search mail..." />
         </Menu.Item>
+      </Menu>{" "}
 
-      </Menu>
-    );
-  }
-}
+
+  </Grid>
+);
 
 export default Header;

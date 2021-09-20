@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@500&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,10 +7,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:#DB5F32;
-  color:white;
+  color: white;
 }
-
 
 .centered {
   text-align: center !important;
@@ -18,53 +16,49 @@ body {
 
 p {
   font-family: 'Roboto', sans-serif;
-  font-size:16px;
-
+  font-size: 16px;
 }
+
 .reese {
-  width:65%;
-  margin:0 auto;
-  display:block;
+  width: 65%;
+  margin: 0 auto;
+  display: block;
 }
 
-h1,h2,h3,h4,h5 {
+h1, h2, h3, h4, h5 {
   color: yellow;
-  font-family:'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
-
 
 .logo {
-  width:30% !important;
+  width: 30% !important;
 }
-
 
 .reeses {
-width:40%;
-float:right
-
+  width: 40%;
+  float: right
 }
 
-.reese{
-width:40%;
-float:left
-
+.reese {
+  width: 40%;
+  float: left
 }
 
 .crown {
-  width:40%;
-  margin:0 auto;
-  display:block;
+  width: 40%;
+  margin: 0 auto;
+  display: block;
 }
 
 .tiles {
-  margin-top:150px !important;
+  margin-top: 150px !important;
 }
 
 .icCopy {
   font-family: "Playfair Display", serif;
-  font-weight:400;
-  color:#3A3A3A !important;
-  margin-bottom:40px !important;
+  font-weight: 400;
+  color: #3A3A3A !important;
+  margin-bottom: 40px !important;
 }
 
 code {
@@ -78,23 +72,25 @@ code {
 
 .explainwave {
   /* margin-top:-240px; */
-  margin-top:90px;
+  margin-top: 90px;
 }
 
 .explainer {
-  background-color:white;
-  margin-top:-60px;
+  background-color: white;
+  margin-top: -60px;
 }
+
 .explainer .ui.grid>.row {
-  padding:30px;
+  padding: 30px;
   border-top: 1px solid #eee;
 }
+
 .test {
-  margin-top:-390px;
+  margin-top: -390px;
 }
 
 .wave-container {
-  margin-top:-110px;
+  margin-top: -110px;
 }
 
 .transitions-item {
@@ -105,14 +101,13 @@ code {
   justify-content: flex-start;
   align-items: center;
   font-size: 4em;
-  font-family:"Playfair Display", sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-weight: 400;
   will-change: transform, opacity, height;
   white-space: nowrap;
   cursor: pointer;
   line-height: 90px;
 }
-
 
 .list {
   position: relative;
@@ -122,13 +117,13 @@ code {
   height: 100%;
 }
 
-.list > div {
+.list>div {
   position: absolute;
   will-change: transform, width, height, opacity;
   padding: 15px;
 }
 
-.list > div > div {
+.list>div>div {
   position: relative;
   background-size: cover;
   background-position: center center;
@@ -142,16 +137,13 @@ code {
   box-shadow: 0px 10px 50px -10px rgba(0, 0, 0, 0.2);
 }
 
-
-.ui.button:hover{
-  background-color:#f6d6cf;
+.ui.button:hover {
+  background-color: #f6d6cf;
 }
-
 
 a {
-  color:#black !important;
+  color: #black !important;
 }
-
 
 .heads {
   text-align: center !important;
@@ -159,19 +151,17 @@ a {
 
 .nice {
   margin-top: 40px !important;
-  padding:30px !important;
+  padding: 30px !important;
 }
 
 .niceImg {
-  width:70%;
+  width: 70%;
 }
-
 
 .explainerButton {
-  display:block !important;
-  margin:0 auto !important;
+  display: block !important;
+  margin: 0 auto !important;
 }
-
 
 .type {
   padding: 40px !important;
@@ -179,32 +169,29 @@ a {
 
 .imageCopy {
   background-color: #F6D6CF;
-
 }
 
 .opening {
-  margin-bottom:30px !important;
+  margin-bottom: 30px !important;
 }
-
 
 .four {
   margin-top: -100px;
 }
 
- .five {
-  margin-top:-100px;
+.five {
+  margin-top: -100px;
 }
 
-.port {
-  margin-top:-10px;
-  padding:40px !important;
-  background-color:#FFF5EC;
-}
-
+/* .port {
+  margin-top: -10px;
+  padding: 40px !important;
+  background-color: #FFF5EC;
+} */
 
 .experience {
-  padding:40px !important;
-  background-color:white;
+  padding: 40px !important;
+  background-color: white;
 }
 
 .ui.menu {
@@ -220,40 +207,36 @@ a {
   transition: opacity .5s ease-in;
 }
 
-
 a {
-  color: rgba(0,0,0,.87)
+  color: rgba(0, 0, 0, .87)
 }
-
 
 .ui.button {
-  background-color:#F6C9A0
+  background-color: #F6C9A0
 }
 
-.jumbotron {
+/* .jumbotron {
   background-color: #F9EDED !important;
-}
-
+} */
 
 .ui.huge.header {
   font-size: 75px;
-  font-size:300 !important;
+  font-size: 300 !important;
   margin-top: 120px;
 }
 
-
-
 @media(max-width:767px) {
-
   .home {
-    width:40% !important;
+    width: 40% !important;
   }
+
   .crown {
-    width:100%;
+    width: 100%;
   }
+
   .ui.huge.header {
     font-size: 55px;
-    font-size:300 !important;
+    font-size: 300 !important;
     margin-top: 0px;
   }
 
@@ -262,14 +245,12 @@ a {
   }
 
   .transitions-item {
-  font-size: 40px !important;
-  font-weight: 500;
-  line-height:30px;
+    font-size: 40px !important;
+    font-weight: 500;
+    line-height: 30px;
   }
 
   .icCopy {
-    margin-top:-90px !important;
+    margin-top: -90px !important;
   }
-
-
 }
