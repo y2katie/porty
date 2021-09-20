@@ -5,7 +5,7 @@ import { Grid, Image, Menu, Segment, Input, Label } from "semantic-ui-react";
 const Header = () => (
   <Grid>
 
-      <Menu style={{padding:"30px", border:"none !important"}} className="ui secondary vertical pointing menu fixed">
+      <Menu fixed style={{padding:"30px", border:"none !important"}} className="ui fixed secondary vertical pointing menu testing">
 
       <Menu.Item>
         <Image src="https://i.etsystatic.com/14192769/r/il/522e68/1948291857/il_570xN.1948291857_h91n.jpg" />

@@ -20,7 +20,7 @@ const Work = () => (
   <Container responsive fluid style={{ marginTop: "50px" }}>
     <Grid>
       <Grid.Row>
-        <Grid.Column mobile={4} tablet={8} computer={4}>
+        <Grid.Column mobile={14} tablet={8} computer={4}>
           <Header />
         </Grid.Column>
 
