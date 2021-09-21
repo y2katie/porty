@@ -20,12 +20,12 @@ const Work = () => (
   <Container responsive fluid style={{ marginTop: "50px" }}>
     <Grid>
       <Grid.Row>
-        <Grid.Column mobile={14} tablet={8} computer={4}>
+        <Grid.Column mobile={16} tablet={8} computer={4}>
           <Header />
         </Grid.Column>
 
         <Grid.Column style={{padding:"20px"}} mobile={16} tablet={8} computer={12}>
-          <Card.Group itemsPerRow={3}>
+          <Card.Group >
             <Card raised>
             <Image src={yoga} wrapped ui={false} />
             </Card>
