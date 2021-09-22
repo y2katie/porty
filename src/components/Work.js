@@ -139,7 +139,7 @@ const Work = () => (
               label="Illustration"
             />
             <CardExampleCard
-              header="Beauty"
+              header="Yoga"
               img={yoga1}
               link="https://katyvonkaty.github.io/One-Percent/"
               descript="Drag and drop card sorter for organizing a yoga class"
@@ -147,7 +147,7 @@ const Work = () => (
               label="Illustration"
             />
             <CardExampleCard
-              header="Pastry"
+              header="Plating"
               img={pastry}
               link="https://katyvonkaty.github.io/One-Percent/"
               descript="Drag and drop card sorter for organizing a yoga class"
@@ -171,7 +171,7 @@ const Work = () => (
               label="Illustration"
             />
             <CardExampleCard
-              header="Pizza"
+              header="Entrements"
               img={choc}
               link="https://katyvonkaty.github.io/One-Percent/"
               descript="Drag and drop card sorter for organizing a yoga class"
