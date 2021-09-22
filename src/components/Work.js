@@ -19,6 +19,14 @@ import work from "../assets/images/work.jpg";
 import nyc from "../assets/images/nyc.jpg";
 import illo from "../assets/images/illo.jpg";
 import yoga1 from "../assets/images/yoga1.jpg";
+import pastry from "../assets/images/pastry.png";
+import pizza from "../assets/images/pizza.png";
+import pistachio from "../assets/images/pistachio.png";
+import choc from "../assets/images/choc.png";
+
+
+
+
 
 
 
@@ -133,6 +141,38 @@ const Work = () => (
             <CardExampleCard
               header="Beauty"
               img={yoga1}
+              link="https://katyvonkaty.github.io/One-Percent/"
+              descript="Drag and drop card sorter for organizing a yoga class"
+              tags="figma"
+              label="Illustration"
+            />
+            <CardExampleCard
+              header="Pastry"
+              img={pastry}
+              link="https://katyvonkaty.github.io/One-Percent/"
+              descript="Drag and drop card sorter for organizing a yoga class"
+              tags="figma"
+              label="Illustration"
+            />
+            <CardExampleCard
+              header="Pistachio"
+              img={pistachio}
+              link="https://katyvonkaty.github.io/One-Percent/"
+              descript="Drag and drop card sorter for organizing a yoga class"
+              tags="figma"
+              label="Illustration"
+            />
+            <CardExampleCard
+              header="Pizza"
+              img={pizza}
+              link="https://katyvonkaty.github.io/One-Percent/"
+              descript="Drag and drop card sorter for organizing a yoga class"
+              tags="figma"
+              label="Illustration"
+            />
+            <CardExampleCard
+              header="Pizza"
+              img={choc}
               link="https://katyvonkaty.github.io/One-Percent/"
               descript="Drag and drop card sorter for organizing a yoga class"
               tags="figma"
