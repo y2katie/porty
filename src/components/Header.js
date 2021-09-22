@@ -8,12 +8,16 @@ const Header = () => (
       <Menu fixed style={{padding:"30px", border:"none !important"}} className="ui fixed secondary vertical pointing menu testing">
 
       <Menu.Item>
-        <Image src="https://i.etsystatic.com/14192769/r/il/522e68/1948291857/il_570xN.1948291857_h91n.jpg" />
+        <h1> Katie Jordan </h1>
+        <li> Pastry Chef </li>
+        <li> Yoga Instructor </li>
+        <li> Cyber Sec Analys  </li>
+        <li> Product & Web Design </li>
       </Menu.Item>
 
 
         <Menu.Item>
-          Product
+          <h4> Product </h4>
         </Menu.Item>
         <Menu.Item>
           Pastry
