@@ -8,11 +8,21 @@ import { Link } from "react-router-dom";
 import bb from "../assets/images/bb.jpg";
 import roar from "../assets/images/roar.jpg";
 import star from "../assets/images/star.png";
+import onepercent from "../assets/images/onepercent.jpg";
+
 import online from "../assets/images/online.png";
 
 import yoga from "../assets/images/yoga.png";
 import baked from "../assets/images/baked.png";
 import agent from "../assets/images/agent.png";
+import work from "../assets/images/work.jpg";
+import nyc from "../assets/images/nyc.jpg";
+import illo from "../assets/images/illo.jpg";
+import yoga1 from "../assets/images/yoga1.jpg";
+
+
+
+
 
 const src =
   "https://i.pinimg.com/originals/b9/c9/76/b9c9764583f7f5bdc1de5413bbb6952e.jpg";
@@ -68,7 +78,7 @@ const Work = () => (
               header="Sequencing"
               img={yoga}
               link="https://sequencing.vercel.app/"
-              descript="Drag and drop card sorter for organizing a yoga class"
+              descript="Drag and drop card sorter for organizing a yoga class."
               tags="figma, javascript, html, css"
               label="Product Design & Web Development"
             />
@@ -76,32 +86,61 @@ const Work = () => (
               header="Online Leasing: Renter"
               img={online}
               link="https://apply.funnelleasing.com/2/login"
-              descript="Drag and drop card sorter for organizing a yoga class"
-              tags="figma, javascript, html, css"
+              descript="Renting an apartment via 21st century technology."
+              tags="figma, invision, sketch"
               label="Product Design & Web Development"
             />
             <CardExampleCard
               header="Online Leasing: Agent"
               img={agent}
               link="https://apply.funnelleasing.com/2/login"
-              descript="Drag and drop card sorter for organizing a yoga class"
-              tags="figma, javascript, html, css"
+              descript="Agents analyzing a renter's qualifications to approve or deny rental."
+              tags="figma, invision, sketch"
               label="Product Design & Web Development"
             />
             <CardExampleCard
               header="One Percent"
-              img={agent}
+              img={onepercent}
               link="https://katyvonkaty.github.io/One-Percent/"
-              descript="Drag and drop card sorter for organizing a yoga class"
+              descript="Satorical application designed to welcome you to the one percent."
               tags="figma, javascript, html, css"
               label="Product Design & Web Development"
             />
+            <CardExampleCard
+              header="NYC"
+              img={nyc}
+              link="https://katyvonkaty.github.io/One-Percent/"
+              descript="Drag and drop card sorter for organizing a yoga class"
+              tags="figma"
+              label="Illustration"
+            />
+            <CardExampleCard
+              header="Work"
+              img={work}
+              link="https://katyvonkaty.github.io/One-Percent/"
+              descript="Drag and drop card sorter for organizing a yoga class"
+              tags="figma"
+              label="Illustration"
+            />
+            <CardExampleCard
+              header="Beauty"
+              img={illo}
+              link="https://katyvonkaty.github.io/One-Percent/"
+              descript="Drag and drop card sorter for organizing a yoga class"
+              tags="figma"
+              label="Illustration"
+            />
+            <CardExampleCard
+              header="Beauty"
+              img={yoga1}
+              link="https://katyvonkaty.github.io/One-Percent/"
+              descript="Drag and drop card sorter for organizing a yoga class"
+              tags="figma"
+              label="Illustration"
+            />
 
 
-            <Card raised image={roar} />
-            <Card raised image={bb} />
-            <Card raised image={src} />
-            <Card raised image={src} />
+
           </Card.Group>
         </Grid.Column>
       </Grid.Row>

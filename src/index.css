@@ -20,6 +20,7 @@ body {
 p {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+  color:black;
 }
 
 .reese {
@@ -69,9 +70,7 @@ code {
     monospace;
 }
 
-.ui.button {
-  border-radius: 40px;
-}
+
 
 .explainwave {
   /* margin-top:-240px; */
@@ -215,7 +214,7 @@ a {
 }
 
 .ui.button {
-  background-color: #F6C9A0
+  background-color: #E6B34B
 }
 
 /* .jumbotron {
