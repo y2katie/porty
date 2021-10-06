@@ -25,8 +25,11 @@ const Header = () => (
 
       <Menu.Item><a href="https://dribbble.com/kj0203">Illustration </a></Menu.Item>
       <Menu.Item><a href="https://github.com/katyvonkaty"> Github </a> </Menu.Item>
+      <Menu.Item><a href="./test.pdf" target="blank">PdfFile</a></Menu.Item>
+
       <Menu.Item>
-        <Button icon="search" placeholder="Contact me"> Contact Me </Button>
+      <a href="mailto:kj0203@gmail.com" target="_blank">  <Button icon="search" placeholder="Contact me">
+ Contact Me </Button> </a>
       </Menu.Item>
     </Menu>{" "}
   </Grid>
