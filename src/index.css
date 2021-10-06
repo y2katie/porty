@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -15,7 +15,21 @@ body {
   height:100%;
 }
 
+h3 {
+  color:#362F52;
+}
 
+.ui.label {
+  background-color:#EFE3CB;
+}
+
+.item a {
+  color: #362F52 !important;
+}
+.item a:hover {
+  text-decoration:2px solid #E6B34B underline;
+
+}
 
 p {
   font-family: 'Montserrat', sans-serif;
@@ -30,8 +44,14 @@ p {
 }
 
 h1 {
-  color: #B09FED;
-  font-family: 'Bebas Neue', cursive;
+  color: #E6B34B !important;
+  font-weight:700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 a {
+  color: #E6B34B !important;
+
 }
 
 .logo {
@@ -140,13 +160,20 @@ code {
 }
 
 .ui.button:hover {
-  background-color: #f6d6cf;
+  background-color: #DBC9CB;
+color:#362F52;
 }
+
+/* .ui.button a:hover */
 
 a {
   color: #black !important;
 }
 
+a:hover {
+  color: #B09FED;
+
+}
 .heads {
   text-align: center !important;
 }
@@ -214,7 +241,8 @@ a {
 }
 
 .ui.button {
-  background-color: #E6B34B
+  background-color: #B09FED;
+  color:white;
 }
 
 /* .jumbotron {

@@ -12,9 +12,9 @@ const Header = () => (
       style={{ padding: "30px", border: "none !important" }}
       className="ui fixed secondary vertical pointing menu testing"
     >
-    <h3> 🥐🎨🧘💻👩‍💻🌐 </h3>
 
       <h1> <Link to="/"> Katie Jordan </Link></h1>
+      <h2> 🥐 🎨 🧘 💻 👩‍💻 🌐 </h2>
 
 
       <Menu.Item><Link to="/About">About </Link></Menu.Item>
