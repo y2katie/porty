@@ -9,6 +9,8 @@ import HeraldTowers from './HeraldTowers'
 import Cortland from './Cortland'
 import Baked from './Baked'
 import Reeses from './Reeses'
+import About from './About'
+
 
 
 
@@ -21,6 +23,8 @@ class App extends Component {
             <div className="App">
               <Route exact path="/"  component={Home} />
               <Route path="/home" component={Home} />
+              <Route path="/about" component={About} />
+
               <Route path="/onlineleasing" component={OnlineLeasing} />
               <Route path="/onepercent" component={OnePercent} />
               <Route path="/onlineagent" component={OnlineAgent} />

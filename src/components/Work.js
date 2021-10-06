@@ -26,14 +26,6 @@ import choc from "../assets/images/choc.png";
 import choc2 from "../assets/images/choc.jpg";
 
 
-
-
-
-
-
-
-
-
 const src =
   "https://i.pinimg.com/originals/b9/c9/76/b9c9764583f7f5bdc1de5413bbb6952e.jpg";
 

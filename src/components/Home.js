@@ -1,6 +1,6 @@
 import React from "react"
 import Work from "./Work"
-import MenuExampleVertical from "./VerticalMenu"
+// import MenuExampleVertical from "./VerticalMenu"
 // import Header from "./Header"
 // import Illustrations from "./Illustrations"
 
