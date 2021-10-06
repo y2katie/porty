@@ -23,6 +23,8 @@ import pastry from "../assets/images/pastry.png";
 import pizza from "../assets/images/pizza.png";
 import pistachio from "../assets/images/pistachio.png";
 import choc from "../assets/images/choc.png";
+import choc2 from "../assets/images/choc.jpg";
+
 
 
 
@@ -117,66 +119,63 @@ const Work = () => (
             <CardExampleCard
               header="NYC"
               img={nyc}
-              link="https://katyvonkaty.github.io/One-Percent/"
-              descript="Drag and drop card sorter for organizing a yoga class"
+              link="https://dribbble.com/kj0203"
+              descript="Illustration based off the scenes of NYC."
               tags="figma"
               label="Illustration"
             />
             <CardExampleCard
               header="Work"
               img={work}
-              link="https://katyvonkaty.github.io/One-Percent/"
-              descript="Drag and drop card sorter for organizing a yoga class"
+              link="https://dribbble.com/kj0203"
+              descript="Characters developed to symbolize a work day."
               tags="figma"
               label="Illustration"
             />
             <CardExampleCard
               header="Beauty"
               img={illo}
-              link="https://katyvonkaty.github.io/One-Percent/"
-              descript="Drag and drop card sorter for organizing a yoga class"
+              link="https://dribbble.com/kj0203"
+              descript="Abstract representation of beauty."
               tags="figma"
               label="Illustration"
             />
             <CardExampleCard
               header="Yoga"
               img={yoga1}
-              link="https://katyvonkaty.github.io/One-Percent/"
-              descript="Drag and drop card sorter for organizing a yoga class"
+              link="https://dribbble.com/kj0203"
+              descript="Illustration featuring common yoga poses."
               tags="figma"
               label="Illustration"
             />
             <CardExampleCard
-              header="Plating"
+              header="Mixed Media Crumble"
               img={pastry}
-              link="https://katyvonkaty.github.io/One-Percent/"
-              descript="Drag and drop card sorter for organizing a yoga class"
-              tags="figma"
-              label="Illustration"
+              descript="Plating desserts"
+              label="Innovation, gluten, butter, sugar"
             />
             <CardExampleCard
-              header="Pistachio"
+              header="Pistachio Cake"
+              descript="Plating desserts"
+
               img={pistachio}
-              link="https://katyvonkaty.github.io/One-Percent/"
-              descript="Drag and drop card sorter for organizing a yoga class"
-              tags="figma"
-              label="Illustration"
+
+              label="Innovation, gluten, butter, sugar"
             />
             <CardExampleCard
-              header="Pizza"
-              img={pizza}
-              link="https://katyvonkaty.github.io/One-Percent/"
-              descript="Drag and drop card sorter for organizing a yoga class"
-              tags="figma"
-              label="Illustration"
+              header="Flourless Chocolate Cake"
+              img={choc2}
+              descript="Plating desserts"
+
+
+              label="Innovation, gluten, butter, sugar"
             />
             <CardExampleCard
               header="Entrements"
               img={choc}
-              link="https://katyvonkaty.github.io/One-Percent/"
-              descript="Drag and drop card sorter for organizing a yoga class"
-              tags="figma"
-              label="Illustration"
+              descript="Plating desserts"
+
+              label="Innovation, gluten, butter, sugar"
             />
 
 
