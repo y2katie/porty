@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;800&family=Outfit:wght@400&display=swap');
+
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Outfit', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
@@ -20,7 +21,8 @@ h3 {
 }
 
 .ui.label {
-  background-color:#EFE3CB;
+  background-color:#c17900;
+  color:white;
 }
 
 .item a {
@@ -31,8 +33,12 @@ h3 {
 
 }
 
+.ui.card>.content>.header, .ui.cards>.card>.content>.header {
+  font-family:"Nunito";
+}
+
 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Outfit', sans-serif;
   font-size: 16px;
   color:black;
 }
@@ -44,13 +50,15 @@ p {
 }
 
 h1 {
-  color: #E6B34B !important;
+  color: #f9a825 !important;
   font-weight:700;
-  font-family: 'Montserrat', sans-serif;
 }
 
 h1 a {
   color: #E6B34B !important;
+  font-family: "Nunito";
+  font-size: 65px;
+  line-height: 64px;
 
 }
 
@@ -245,8 +253,8 @@ a {
 }
 
 .ui.button {
-  background-color: #B09FED;
-  color:white;
+  background-color: #ffd95a;
+  color:#666;
 }
 
 /* .jumbotron {

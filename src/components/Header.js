@@ -13,19 +13,19 @@ const Header = () => (
       className="ui fixed secondary vertical pointing menu testing"
     >
 
-      <h1> <Link to="/"> Katie Jordan </Link></h1>
-      <h2> 🥐 🎨 🧘 💻 👩‍💻 🌐 </h2>
+      <h1> <Link to="/"> Katie  Jordan </Link></h1>
+      <h2> </h2>
 
 
-      <Menu.Item><Link to="/About">About </Link></Menu.Item>
-      <Menu.Item>Resume </Menu.Item>
+      <Menu.Item><Link to="/About">🌐 About </Link></Menu.Item>
+      <Menu.Item>  🎨 Resume </Menu.Item>
 
 
-      <Menu.Item><a href="https://www.linkedin.com/in/katie-jordan-designer/">Linkedin </a></Menu.Item>
+      <Menu.Item><a href="https://www.linkedin.com/in/katie-jordan-designer/"> 🧘Linkedin </a></Menu.Item>
 
 
-      <Menu.Item><a href="https://dribbble.com/kj0203">Illustration </a></Menu.Item>
-      <Menu.Item><a href="https://github.com/katyvonkaty"> Github </a> </Menu.Item>
+      <Menu.Item><a href="https://dribbble.com/kj0203"> 💻 Illustration </a></Menu.Item>
+      <Menu.Item><a href="https://github.com/katyvonkaty"> 👩‍💻 Github </a> </Menu.Item>
 
 
       <Menu.Item>
